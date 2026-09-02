@@ -1,0 +1,5 @@
+[allowlist]
+description = "Allow documented placeholder values that are not real secrets."
+regexes = [
+  '''sk-please_fill_your_own_key''',
+]
