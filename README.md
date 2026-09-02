@@ -9,6 +9,7 @@
 SpringBoot 3 · Vue 3 · Milvus · Redis · MinIO · LangChain4j
 
 [![CI](https://github.com/YOUR_GITHUB_USERNAME/medirag/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/medirag/actions/workflows/ci.yml)
+[![tests](https://img.shields.io/badge/tests-22%20passing-brightgreen)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![SpringBoot](https://img.shields.io/badge/SpringBoot-3.2-green)
@@ -28,7 +29,8 @@ MediRAG 是一套完整的医疗知识智能问答系统，将医学文档切片
 
 ## ✨ 核心特性
 
-- **工业级 RAG 链路**：向量 + 关键词多路召回 → RRF 融合 → Cross-Encoder 重排序 → LLM 生成
+- **工业级 RAG 链路**：向量 + 关键词（BM25 风格打分）多路召回 → RRF 融合 → Cross-Encoder 重排序 → LLM 生成
+- **开箱即用的工程化**：全链路 TraceId 日志追踪、接口限流、Swagger/OpenAPI 文档、22 个单元测试
 - **医疗安全兜底**：紧急症状检测 + 置信度评估，证据不足时明确提示而非编造
 - **来源可溯**：每条回答标注引用的医学文献章节与页码
 - **检索过程可视化**：改写、召回、融合、重排全过程可查，适合教学与答辩
@@ -71,6 +73,7 @@ docker compose up -d
 # 4. 访问
 # 前端：http://localhost
 # 后端：http://localhost:8080
+# API 文档：http://localhost:8080/swagger-ui/index.html
 # MinIO 控制台：http://localhost:9001
 ```
 

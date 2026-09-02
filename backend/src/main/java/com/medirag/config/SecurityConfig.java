@@ -66,7 +66,11 @@ public class SecurityConfig {
             "/uploads/**",
             // Actuator 仅健康检查端点放行（info/metrics/env 等默认不启用），
             // 生产环境建议通过独立网关或 security 要求管理员认证后访问。
-            "/actuator/health"
+            "/actuator/health",
+            // OpenAPI 文档（生产环境可用 springdoc.api-docs.enabled=false 关闭）
+            "/swagger-ui/**",
+            "/swagger-ui.html",
+            "/v3/api-docs/**"
     };
 
     @Bean

@@ -2,6 +2,10 @@
 
 > 认证方式：除白名单接口外，均需 `Authorization: Bearer <JWT>`。
 > 统一响应体：`{ "code": 200, "message": "success", "data": ... }`
+>
+> **在线文档**：启动后访问 `http://localhost:8080/swagger-ui/index.html`（可在 yml 中关闭）
+> **限流**：`GET /api/chat/stream` 每用户 10 次/分钟，超限返回 error 事件"提问太频繁"
+> **TraceId**：所有响应带 `X-Trace-Id` 头；报障时提供该值可精确检索服务端日志
 
 ## 用户模块 `/api/user`
 

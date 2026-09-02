@@ -123,7 +123,7 @@ public class RagPipeline {
                 Map<String, Object> stats = new LinkedHashMap<>();
                 stats.put("query", q);
                 stats.put("vector", oneVector.size());
-                stats.put("bm25", oneBm25.size() // 前端字段名保持兼容);
+                stats.put("bm25", oneBm25.size()); // 前端字段名保持兼容
                 perQueryStats.add(stats);
             }
 

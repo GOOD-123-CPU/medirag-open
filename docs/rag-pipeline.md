@@ -36,10 +36,12 @@
 
 ## 2. 关键设计取舍（诚实说明）
 
-### 2.1 "关键词检索"不是严格 BM25
-`KeywordRetriever` 使用 Milvus 标量字段 `LIKE` 匹配做多关键词 OR 召回，
-没有词频/逆文档频率加权，属于轻量词法通道。原因：避免为 demo 部署
-额外引入 Elasticsearch。升级路径：
+### 2.1 关键词检索采用 BM25 风格局部打分
+`KeywordRetriever` 用 Milvus 标量字段 `LIKE` 匹配做多关键词 OR 召回，
+召回后按 BM25 风格公式重排序：词频饱和（k1=1.2）+ 文档长度归一化（b=0.75），
+查询词覆盖率为主要权重。因缺少全库文档频率，未做全局 IDF 加权（局部近似）；
+排序质量在单查询内已足够稳定，全局加权由 RRF 融合与 Cross-Encoder 补足。
+如需严格的全库 BM25，升级路径：
 - Milvus 2.5+ 原生 BM25 函数（推荐）
 - 外接 Elasticsearch / OpenSearch
 

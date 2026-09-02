@@ -11,6 +11,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
+import org.slf4j.MDC;
 import java.util.stream.Collectors;
 
 /**
@@ -56,7 +57,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public Result<Void> handleException(Exception e) {
-        log.error("系统异常: ", e);
-        return Result.error(ResultCode.ERROR.getCode(), "服务器内部错误，请稍后重试");
+        log.error("系统异常: traceId={}", MDC.get("traceId"), e);
+        return Result.error(ResultCode.ERROR.getCode(), "服务器内部错误，请稍后重试（traceId=" + MDC.get("traceId") + "）");
     }
 }

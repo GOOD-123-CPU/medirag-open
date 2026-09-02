@@ -24,7 +24,7 @@ public class RRFFusion {
     /**
      * 融合两路检索结果
      * @param vectorResults 向量检索结果（按相关性降序）
-     * @param bm25Results   关键词检索结果（按相关性降序）
+     * @param bm25Results   关键词检索结果（按相关性降序），参数名沿用历史命名
      * @param topN          融合后保留的最大数量
      */
     public List<RetrievedChunk> fuse(List<RetrievedChunk> vectorResults,

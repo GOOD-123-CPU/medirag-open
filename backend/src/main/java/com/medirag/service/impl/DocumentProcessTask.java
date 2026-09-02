@@ -51,7 +51,7 @@ public class DocumentProcessTask {
     @Value("${embedding.allow-pseudo-fallback:false}")
     private boolean allowPseudoFallback;
 
-    @Async
+    @Async("docProcessExecutor")
     public void process(Long knowledgeBaseId) {
         MedKnowledgeBase kb = knowledgeBaseMapper.selectById(knowledgeBaseId);
         if (kb == null) {

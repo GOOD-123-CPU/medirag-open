@@ -1,11 +1,14 @@
 package com.medirag.controller;
 
+import com.medirag.common.exception.BusinessException;
+import com.medirag.common.ratelimit.RedisRateLimiter;
+import com.medirag.common.result.Result;
+import com.medirag.common.result.ResultCode;
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONArray;
 import com.alibaba.fastjson2.JSONObject;
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.medirag.common.result.Result;
 import com.medirag.entity.MedConversation;
 import com.medirag.entity.MedMessage;
 import com.medirag.entity.dto.ChatRequestDTO;
@@ -24,6 +27,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 
 import java.nio.charset.StandardCharsets;
+import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -40,17 +44,36 @@ public class ChatController {
     private final UserService userService;
     private final MedConversationMapper conversationMapper;
     private final MedMessageMapper messageMapper;
+    private final RedisRateLimiter rateLimiter;
 
-    private final ExecutorService executor = Executors.newCachedThreadPool();
+    /** SSE 流式问答专用线程池：有界，避免无界 newCachedThreadPool 在高并发下线程膨胀。 */
+    private final ExecutorService sseExecutor = Executors.newFixedThreadPool(16);
+
+    /** 限流参数：每用户每分钟最多 10 次问答（保护下游 LLM 配额）。 */
+    private static final int CHAT_RATE_LIMIT = 10;
+    private static final Duration CHAT_RATE_WINDOW = Duration.ofMinutes(1);
+
     private static final DateTimeFormatter DT_FMT = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
     @GetMapping(value = "/stream", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     public SseEmitter stream(@RequestParam(required = false) Long conversationId, @RequestParam String message) {
-        SseEmitter emitter = new SseEmitter(120_000L);
         Long userId = userService.getCurrentUserId();
+
+        if (!rateLimiter.tryAcquire("rate:chat:" + userId, CHAT_RATE_LIMIT, CHAT_RATE_WINDOW)) {
+            SseEmitter rejected = new SseEmitter(5_000L);
+            try {
+                rejected.send(SseEmitter.event().name("error")
+                        .data("{\"message\":\"提问太频繁啦，请稍后再试\"}"));
+                rejected.complete();
+            } catch (Exception ignored) {
+            }
+            return rejected;
+        }
+
+        SseEmitter emitter = new SseEmitter(120_000L);
         String healthProfile = userService.getCurrentUser().getHealthProfile();
 
-        executor.execute(() -> ragPipeline.execute(userId, conversationId, message, healthProfile, emitter));
+        sseExecutor.execute(() -> ragPipeline.execute(userId, conversationId, message, healthProfile, emitter));
         return emitter;
     }
 

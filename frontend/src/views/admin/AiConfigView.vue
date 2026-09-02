@@ -232,8 +232,8 @@ const loadModels = async () => {
 // ===================== 工具方法 =====================
 const isModified = (cfg: AiConfig) => {
   const current = cfg.valueType === 'string'
-    ? form[cfg.configKey]
-    : String(formNum[cfg.configKey])
+    ? (form[cfg.configKey] ?? '')
+    : String(formNum[cfg.configKey] ?? 0)
   return current !== cfg.configValue
 }
 
@@ -242,8 +242,8 @@ const collectGroup = (groupKey: string) => {
   const params: Record<string, string> = {}
   for (const cfg of items) {
     params[cfg.configKey] = cfg.valueType === 'string'
-      ? form[cfg.configKey]
-      : String(formNum[cfg.configKey])
+      ? (form[cfg.configKey] ?? '')
+      : String(formNum[cfg.configKey] ?? 0)
   }
   return params
 }
@@ -253,8 +253,8 @@ const collectAll = () => {
   for (const items of Object.values(grouped.value)) {
     for (const cfg of items) {
       params[cfg.configKey] = cfg.valueType === 'string'
-        ? form[cfg.configKey]
-        : String(formNum[cfg.configKey])
+        ? (form[cfg.configKey] ?? '')
+        : String(formNum[cfg.configKey] ?? 0)
     }
   }
   return params

@@ -21,9 +21,9 @@ import java.util.List;
  * 关键词检索器（Keyword / Lexical Retrieval）。
  *
  * 实现说明：基于 Milvus 标量字段 LIKE 匹配做多关键词 OR 召回，
- * 属于轻量级词法检索通道，与向量检索互补构成多路召回。
- * 注意：这并非严格的 BM25 算法（无词频/逆文档频率加权）。
- * 如需真正的 BM25，可升级 Milvus 2.5+ 的原生 BM25 函数或外接
+ * 召回后用 BM25 风格打分（词频饱和 + 长度归一化，无全局 IDF，
+ * 属局部近似）重排序，与向量检索互补构成多路召回。
+ * 如需严格的全库 BM25，可升级 Milvus 2.5+ 原生 BM25 函数或外接
  * Elasticsearch/OpenSearch，本类保留为默认的零依赖实现。
  */
 @Slf4j
@@ -153,25 +153,54 @@ public class KeywordRetriever {
         return chunks;
     }
 
+    /**
+     * BM25 风格打分（单文档局部近似版）。
+     *
+     * 说明：标准 BM25 需要 IDF（依赖全库文档频率），此处用查询词覆盖 +
+     * 词频饱和（k1=1.2）+ 文档长度归一化（b=0.75）做局部近似，
+     * 对单个查询内部的相关性排序已足够稳定；全局 IDF 加权交由
+     * 上游 RRF 融合与 Cross-Encoder 重排序弥补。
+     */
     private float calculateBm25Score(String content, List<String> keywords) {
-        float lexicalCoverage = QueryTermHelper.lexicalCoverage(content, keywords);
-        if (lexicalCoverage == 0f || content == null || content.isBlank()) {
-            return lexicalCoverage;
+        if (content == null || content.isBlank() || keywords == null || keywords.isEmpty()) {
+            return 0f;
         }
 
         String lower = content.toLowerCase();
-        int hits = 0;
+        int docLength = content.length();
+        // 归一化文档长度基准（按 300 字符为"平均文档"）
+        float normLen = (float) (docLength / 300.0);
+
+        float k1 = 1.2f;
+        float b = 0.75f;
+        float lengthFactor = (1 - b) + b * (docLength / (float) Math.max(1, docLength));
+
+        float covered = 0f;
+        float tfSum = 0f;
         for (String keyword : keywords) {
             String term = keyword.toLowerCase();
+            if (term.isEmpty()) {
+                continue;
+            }
+            int tf = 0;
             int index = 0;
             while ((index = lower.indexOf(term, index)) != -1) {
-                hits++;
-                index += Math.max(1, term.length());
+                tf++;
+                index += term.length();
+            }
+            if (tf > 0) {
+                covered += 1f;
+                // BM25 词频饱和：tf*(k1+1) / (tf + k1*(1-b+b*lenNorm))
+                float tfNorm = (tf * (k1 + 1))
+                        / (tf + k1 * lengthFactor * normLen);
+                tfSum += tfNorm;
             }
         }
 
-        float density = hits / (float) Math.max(1, content.length() / 80);
-        return Math.min(1f, lexicalCoverage * 0.7f + Math.min(1f, density) * 0.3f);
+        float coverage = covered / keywords.size();
+        // 覆盖率为主（哪个词都没命中则 0 分），词频饱和分做加权
+        float raw = coverage * 0.6f + Math.min(1f, tfSum / keywords.size()) * 0.4f;
+        return Math.min(1f, raw);
     }
 
     private boolean isMilvusReachable() {

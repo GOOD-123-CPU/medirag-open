@@ -481,7 +481,8 @@ const sendMessage = async (text: string) => {
     sources: null as SourceRef[] | null,
     showSources: false,
     isStreaming: true,
-    feedback: 0
+    feedback: 0,
+    retrievalLog: null as unknown
   })
   messages.value.push(aiMsg)
   await scrollToBottom()
@@ -629,7 +630,7 @@ const startVoiceRecording = async () => {
     const float32 = e.inputBuffer.getChannelData(0)
     const int16 = new Int16Array(float32.length)
     for (let i = 0; i < float32.length; i++) {
-      const s = Math.max(-1, Math.min(1, float32[i]))
+      const s = Math.max(-1, Math.min(1, float32[i] ?? 0))
       int16[i] = s < 0 ? s * 0x8000 : s * 0x7fff
     }
     speechWs.send(int16.buffer)

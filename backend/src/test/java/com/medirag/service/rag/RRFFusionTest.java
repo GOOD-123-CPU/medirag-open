@@ -1,5 +1,6 @@
 package com.medirag.service.rag;
 
+import com.medirag.config.AiConfigHolder;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
