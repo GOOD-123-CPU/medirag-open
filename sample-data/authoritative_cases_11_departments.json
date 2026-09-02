@@ -1,0 +1,128 @@
+{
+  "version": "2026-03-30",
+  "language": "zh-CN",
+  "source_policy": "Only authoritative public sources (PubMed indexed records).",
+  "departments": [
+    {
+      "department": "外科",
+      "case_title": "Pediatric acute appendicitis with appendicolith and appendiceal perforation: a delayed diagnosis and treatment due to atypical symptoms, resulting in prolonged hospitalization",
+      "journal": "International Journal of Emergency Medicine",
+      "year": 2025,
+      "pmid": "41190001",
+      "doi": "",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41190001/",
+      "clinical_summary_zh": "该病例提示阑尾炎可出现非典型表现，延误会导致穿孔并延长住院。RAG问答应优先识别“迁移性腹痛+发热/呕吐+病程进展”并快速分流急诊外科。",
+      "retrieval_keywords": ["急性阑尾炎", "阑尾穿孔", "右下腹痛", "appendicolith", "外科急腹症"]
+    },
+    {
+      "department": "内科",
+      "case_title": "A Case Report of Diabetic Ketoacidosis and Acute Ischemic Stroke in a Young Woman",
+      "journal": "Cureus",
+      "year": 2025,
+      "pmid": "41008191",
+      "doi": "10.7759/cureus.84974",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41008191/",
+      "clinical_summary_zh": "年轻患者可同时出现DKA与急性缺血性卒中，说明代谢危机与神经急症可叠加。系统需在“高血糖+意识/神经体征变化”场景中优先触发急诊评估。",
+      "retrieval_keywords": ["糖尿病酮症酸中毒", "急性缺血性卒中", "意识障碍", "DKA", "内科急症"]
+    },
+    {
+      "department": "儿科",
+      "case_title": "Atypical etiology of severe bilateral pneumonia in infant: A case report",
+      "journal": "Medicine (Baltimore)",
+      "year": 2025,
+      "pmid": "41243126",
+      "doi": "10.1097/MD.0000000000043725",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41243126/",
+      "clinical_summary_zh": "婴幼儿重症肺炎可由非典型病原引起，早期表现可能不典型。知识库应强调呼吸窘迫、喂养差、低氧等危险信号和住院阈值。",
+      "retrieval_keywords": ["儿科肺炎", "婴儿重症肺炎", "低氧血症", "非典型病原", "pediatric pneumonia"]
+    },
+    {
+      "department": "妇科",
+      "case_title": "A delayed diagnosis of asymptomatic ectopic pregnancy after prolonged use of oral contraceptive: a case report and literature review",
+      "journal": "BMC Women's Health",
+      "year": 2025,
+      "pmid": "41465890",
+      "doi": "10.1186/s12905-025-03891-8",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41465890/",
+      "clinical_summary_zh": "异位妊娠可能在症状不典型时被延迟诊断。RAG应优先识别“停经/异常出血/腹痛”并提示先做hCG与经阴超，而非仅做普通止痛建议。",
+      "retrieval_keywords": ["异位妊娠", "宫外孕", "停经后出血", "hCG", "妇科急症"]
+    },
+    {
+      "department": "神经科",
+      "case_title": "Acute ischemic stroke following a camel bite: a case report and literature review",
+      "journal": "Acta Neurologica Belgica",
+      "year": 2025,
+      "pmid": "40469266",
+      "doi": "10.1007/s13760-025-02824-4",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40469266/",
+      "clinical_summary_zh": "卒中可在非常规诱因后出现，核心仍是时间窗与神经定位体征。系统应强化“突然偏瘫/失语/视野异常”的急诊卒中通道提示。",
+      "retrieval_keywords": ["急性缺血性卒中", "时间窗", "FAST", "偏瘫", "失语"]
+    },
+    {
+      "department": "骨科",
+      "case_title": "Cauda equina syndrome with unilateral symptoms: A case report and review of the literature",
+      "journal": "International Journal of Surgery Case Reports",
+      "year": 2023,
+      "pmid": "37464857",
+      "doi": "10.1016/j.ijscr.2023.108383",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37464857/",
+      "clinical_summary_zh": "马尾综合征并不总是双侧典型表现，单侧症状也可能延误诊断。问答系统应优先询问大小便功能、会阴区感觉和进行性无力。",
+      "retrieval_keywords": ["马尾综合征", "腰椎间盘突出", "尿潴留", "会阴麻木", "骨科急症"]
+    },
+    {
+      "department": "皮肤科",
+      "case_title": "Paradoxical pyoderma gangrenosum in severe atopic dermatitis after Janus kinase inhibitor administration: A case report",
+      "journal": "Allergology International",
+      "year": 2025,
+      "pmid": "41246747",
+      "doi": "10.1016/j.alit.2025.06.003",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41246747/",
+      "clinical_summary_zh": "重度特应性皮炎在JAK抑制剂治疗下可出现反常严重皮损。知识库需补充“治疗中病情反向恶化”及药物相关不良反应分流。",
+      "retrieval_keywords": ["特应性皮炎", "JAK抑制剂", "坏疽性脓皮病", "药物不良反应", "皮肤科病例"]
+    },
+    {
+      "department": "眼科",
+      "case_title": "Acute angle-closure glaucoma after botulinum toxin injection for blepharospasm treatment: A case report",
+      "journal": "American Journal of Ophthalmology Case Reports",
+      "year": 2024,
+      "pmid": "39371815",
+      "doi": "10.1016/j.ajoc.2024.102286",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39371815/",
+      "clinical_summary_zh": "急性闭角可在诱因后短时间发生，延误将导致不可逆视损。RAG应识别“眼痛+恶心呕吐+彩虹视+视力下降”的急症组合。",
+      "retrieval_keywords": ["急性闭角型青光眼", "眼压升高", "彩虹视", "眼痛", "眼科急症"]
+    },
+    {
+      "department": "药学",
+      "case_title": "Long-lasting spontaneous ecchymoses after suggesting indication of warfarin treatment due to drug interaction among clopidogrel and rosuvastatin",
+      "journal": "BMC Pharmacology and Toxicology",
+      "year": 2022,
+      "pmid": "35012687",
+      "doi": "10.1186/s40360-021-00546-0",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35012687/",
+      "clinical_summary_zh": "抗凝与他药联用可显著增加出血风险。系统应在“瘀斑/黑便/血尿+华法林或联合抗血小板”场景中优先触发药学安全告警。",
+      "retrieval_keywords": ["华法林", "药物相互作用", "瘀斑", "出血风险", "临床药学"]
+    },
+    {
+      "department": "急诊科",
+      "case_title": "Cefoperazone/sulbactam-induced refractory Kounis syndrome in anaphylactic shock: a case report",
+      "journal": "European Journal of Medical Research",
+      "year": 2025,
+      "pmid": "40606454",
+      "doi": "10.1186/s40001-025-02705-3",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40606454/",
+      "clinical_summary_zh": "过敏性休克可与冠脉痉挛/缺血并存（Kounis综合征），属于高危急诊场景。问答应强调肾上腺素优先、持续监护与心电评估。",
+      "retrieval_keywords": ["过敏性休克", "Kounis综合征", "肾上腺素", "急诊分流", "anaphylaxis"]
+    },
+    {
+      "department": "综合科",
+      "case_title": "Case Report: Fever of unknown origin and newly diagnosed atrial fibrillation in a healthy man due to Q fever",
+      "journal": "Frontiers in Medicine",
+      "year": 2024,
+      "pmid": "38807821",
+      "doi": "10.3389/fmed.2024.1321224",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38807821/",
+      "clinical_summary_zh": "不明原因发热可伴发心律失常并指向少见感染病因。系统应支持“FUO分层+暴露史+心电异常并发症”联合检索。",
+      "retrieval_keywords": ["不明原因发热", "Q热", "房颤", "暴露史", "综合门诊分层"]
+    }
+  ]
+}

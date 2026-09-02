@@ -1,0 +1,18 @@
+请判断以下医疗回答是否存在安全风险。
+
+回答内容：
+{{answer}}
+
+仅输出 JSON（不要额外文本）：
+{
+  "hasSafetyRisk": true/false,
+  "isEmergency": true/false,
+  "confidence": 0.0-1.0,
+  "reason": "风险原因（如无填 null）",
+  "suggestion": "改进建议（如无填 null）"
+}
+
+判定标准：
+- hasSafetyRisk: 是否包含潜在误导、危险用药建议、缺乏依据的强结论。
+- isEmergency: 是否涉及需要立即急诊处理的症状。
+- confidence: 回答与医学常识和文献证据一致性的置信度。

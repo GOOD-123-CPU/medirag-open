@@ -1,0 +1,123 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+spring:
+  application:
+    name: mediRAG
+  datasource:
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:medirag}?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      connection-timeout: 30000
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:}
+      database: ${REDIS_DATABASE:0}
+      timeout: 10000ms
+      lettuce:
+        pool:
+          max-active: 8
+          max-wait: -1ms
+          max-idle: 8
+          min-idle: 0
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+    serialization:
+      write-dates-as-timestamps: false
+  messages:
+    encoding: UTF-8
+
+mybatis-plus:
+  mapper-locations: classpath*:mapper/**/*Mapper.xml
+  type-aliases-package: com.medirag.entity
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+minio:
+  endpoint: ${MINIO_ENDPOINT:http://localhost:9000}
+  access-key: ${MINIO_ACCESS_KEY:minioadmin}
+  secret-key: ${MINIO_SECRET_KEY:minioadmin}
+  bucket-name: ${MINIO_BUCKET_NAME:medirag}
+
+upload:
+  path: uploads
+
+frontend:
+  dist-path: medirag-frontend/dist
+
+milvus:
+  host: ${MILVUS_HOST:127.0.0.1}
+  port: ${MILVUS_PORT:19530}
+  collection-name: ${MILVUS_COLLECTION_NAME:medical_knowledge}
+  dimension: ${MILVUS_DIMENSION:1024}
+
+jwt:
+  secret: ${JWT_SECRET}
+  expiration: ${JWT_EXPIRATION:86400000}
+  refresh-expiration: ${JWT_REFRESH_EXPIRATION:604800000}
+
+llm:
+  base-url: ${LLM_BASE_URL}
+  api-key: ${LLM_API_KEY}
+  model: ${LLM_MODEL:qwen3-max}
+  embedding-model: ${LLM_EMBEDDING_MODEL:text-embedding-v3}
+  timeout: ${LLM_TIMEOUT_SECONDS:60}
+
+reranker:
+  api-url: ${RERANKER_API_URL:}
+  model: ${RERANKER_MODEL:}
+
+rag:
+  vector_top_k: ${RAG_VECTOR_TOP_K:24}
+  bm25_top_k: ${RAG_BM25_TOP_K:24}
+  rrf_top_n: ${RAG_RRF_TOP_N:36}
+  rerank_top_k: ${RAG_RERANK_TOP_K:8}
+  rrf_k_constant: ${RAG_RRF_K:60}
+
+safety:
+  confidence_threshold: ${SAFETY_CONFIDENCE_THRESHOLD:0.45}
+
+embedding:
+  # Embedding 失败时是否回退伪向量（强烈建议保持 false，见 docs/rag-pipeline.md §2.2）
+  allow-pseudo-fallback: ${EMBEDDING_ALLOW_PSEUDO_FALLBACK:false}
+
+# Actuator：默认仅暴露健康检查，生产环境请勿开启全部端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: never
+
+logging:
+  level:
+    com.medirag: DEBUG
+    org.springframework.security: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"

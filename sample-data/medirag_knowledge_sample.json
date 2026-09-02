@@ -1,0 +1,1206 @@
+{
+ "version": "sample-2026-09-02",
+ "note": "PubMed E-utilities metadata sample for offline demo/evaluation. Cite via PMID/DOI.",
+ "records": [
+  {
+   "department": "内科",
+   "pmid": "31227226",
+   "title": "Physiology and Pathophysiology of Potassium Homeostasis: Core Curriculum 2019.",
+   "journal": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
+   "year": "2019",
+   "doi": "10.1053/j.ajkd.2019.03.427",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31227226/",
+   "abstract": "Total-body potassium (K"
+  },
+  {
+   "department": "内科",
+   "pmid": "27048447",
+   "title": "How to write a case report in nephrology.",
+   "journal": "Journal of medical case reports",
+   "year": "2016",
+   "doi": "10.1186/s13256-016-0852-4",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27048447/",
+   "abstract": "Nephrologists provide medical care to patients presenting with acute kidney injury, chronic kidney disease, glomerular diseases, and electrolyte or acid-base disorders, and perform lifesaving dialysis therapies and kidney transplantation. This editorial is an attempt to describe how to write a comprehensive, yet succinct, case report in nephrology. The essential elements of a nephrology case report are defined that can serve as a writing aid to the author."
+  },
+  {
+   "department": "内科",
+   "pmid": "39304613",
+   "title": "Medical Toxicology vs. Emergency Medicine and Internal Medicine - Are We Really Full of Case Reports?",
+   "journal": "Journal of medical toxicology : official journal of the American College of Medical Toxicology",
+   "year": "2024",
+   "doi": "10.1007/s13181-024-01031-y",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39304613/",
+   "abstract": "Case reports are perceived as having diminished value relative to other study designs. It has been said that medical toxicology (MT) is based largely upon case report literature and thought to be unique in this regard. We sought to quantify recent MT publication of case reports compared with top periodicals from emergency medicine (EM) and internal medicine (IM) journals.\nA retrospective review examined 5 years of articles in 6 U.S.-based medical journals-MT (Journal of Medical Toxicology, Clinical Toxicology), EM (Annals of Emergency Medicine, Journal of Emergency Medicine), and IM (JAMA Internal Medicine, New England Journal of Medicine) was performed using on-line resources. Every article in each issue was categorized into Case report vs. Research and Analysis articles vs. Excluded. \"Case report\" was defined as one (or ≤ 5) individual patients, one patient's data, etc. Total articles per issue were reported after removing Excluded items.\nBetween 2018 and 2022, these 6 periodicals published 522 issues; with 2644 case reports; and 8246 total included articles. Comparison of MT case reports vs. EM revealed a significant difference and odds (Odds Ratio = 1.7, (95% CI: [1.49, 2.03], p < 0.001); MT compared with IM was not significantly different (Odds Ratio = 1.1, (95% CI: [0.96, 1.30], p = 0.150). The percent of case reports increased in the IM and EM journals compared with a relative decrease in the MT journals. Cumulative case report precents were consistently greater in EM and IM than in MT.\nIn the past 5 years, MT journals published fewer and had a declining trend of case reports compared with leading EM and IM journals. Future research is needed to determine the effect on MT practice resulting from the diminished body of case report literature."
+  },
+  {
+   "department": "内科",
+   "pmid": "30596878",
+   "title": "The Apocalypse.",
+   "journal": "Annals of internal medicine",
+   "year": "2019",
+   "doi": "10.7326/M18-2353",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30596878/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "35523759",
+   "title": "Reflections on a case of Vogt-Koyanagi-Harada syndrome first diagnosed in internal medicine: a case report.",
+   "journal": "Annals of palliative medicine",
+   "year": "2022",
+   "doi": "10.21037/apm-22-248",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35523759/",
+   "abstract": "A case of Vogt-Koyanagi-Harada syndrome (VKH) first diagnosed with encephalitis was reported and it bring us the clinical reflection.\nA 73-year-old Chinese woman was first diagnosed in the department of neurology with headache, nausea, vomiting, and elevated body temperature. Cerebrospinal fluid (CSF) assays showed significant increases in leukocytes and Cerebrospinal fluid total protein (CS-TP). Gradually, symptoms appeared in the eyes including decreased vision, keratic precipitates (KP) (+++), iris local posterior adhesion, vitreous opacity, and optic disc congestion edema. The fundus fluorescence examination showed optic disc hyperfluorescence with both eyes exudative retinal detachment. Type-B ultrasonography of obit showed a large number of flocculent opacities in the vitreous and retinal edema. Optical coherence tomography (OCT) showed that significant edema was evident in the macular area and papillary, and there were wavy changes in the retinal pigment epithelium layer. Review of the clinical, photographic, fundus fluorescence angiography (FFA) data of the patient suggested a clinical diagnosis of VKH.\nVKH is an autoimmune disease involving many systems. It has specific systemic symptoms, such as tinnitus, dizziness, headache, nausea, skin injury and so on. But Neurological and auditory manifestations usually precede the involvement of other sites especially in the neurological manifestations. So we should pay attention to the diversity of clinical manifestations, so as to avoid delaying treatment or even misdiagnosis in clinical diagnosis and treatment."
+  },
+  {
+   "department": "内科",
+   "pmid": "37286505",
+   "title": "Internal Medicine Year in Review 2022.",
+   "journal": "Internal medicine (Tokyo, Japan)",
+   "year": "2023",
+   "doi": "10.2169/internalmedicine.2266-23",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37286505/",
+   "abstract": "A novel coronavirus infection [coronavirus disease 2019 (COVID-19)] became a global epidemic just months after the first case of infection was reported in Wuhan, China in December 2019. Its spread has severely affected social systems and people's lives. In the academic world, this led to an increase in the number of papers submitted to this journal. While the number of articles submitted to the journal reached a record high in 2020, the number of articles submitted last year returned to prepandemic levels. In this article, we report on the current submission conditions, including the number of submissions and acceptance rate, as well as the citation trends of highly cited articles and those published by the journal in 2022."
+  },
+  {
+   "department": "内科",
+   "pmid": "33046326",
+   "title": "Functional Constipation: A Case Report.",
+   "journal": "Journal of pediatric health care : official publication of National Association of Pediatric Nurse Associates & Practitioners",
+   "year": "2021",
+   "doi": "10.1016/j.pedhc.2020.07.014",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33046326/",
+   "abstract": "Constipation is one of the most common chronic disorders in childhood. Functional constipation (FC) is the most common form of constipation and can be defined as difficult or infrequent passage of stool. Current practice guidelines for FC are well defined; however, primary provider perception and treatment often differ from clinical practice guidelines. Early diagnosis and appropriate treatment are vital in improving overall outcomes. Primary care providers should be knowledgeable about the diagnosis, initial treatment, and when to refer a child to a gastroenterology specialist. This case report will highlight diagnostic guidelines and treatment of FC in the pediatric population."
+  },
+  {
+   "department": "内科",
+   "pmid": "29880261",
+   "title": "Clinical pearls in general internal medicine.",
+   "journal": "Disease-a-month : DM",
+   "year": "2018",
+   "doi": "10.1016/j.disamonth.2018.05.004",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29880261/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "39119170",
+   "title": "Attitudes on data reuse among internal medicine residents.",
+   "journal": "Journal of the Medical Library Association : JMLA",
+   "year": "2024",
+   "doi": "10.5195/jmla.2024.1772",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39119170/",
+   "abstract": "NYU Langone Health offers a collaborative research block for PGY3 Primary Care residents that employs a secondary data analysis methodology. As discussions of data reuse and secondary data analysis have grown in the data library literature, we sought to understand what attitudes internal medicine residents at a large urban academic medical center had around secondary data analysis. This case report describes a novel survey on resident attitudes around data sharing.\nWe surveyed internal medicine residents in three tracks: Primary Care (PC), Categorical, and Clinician-Investigator (CI) tracks as part of a larger pilot study on implementation of a research block. All three tracks are in our institution's internal medicine program. In discussions with residency directors and the chief resident, the term \"secondary data analysis\" was chosen over \"data reuse\" due to this being more familiar to clinicians, but examples were given to define the concept.\nWe surveyed a population of 162 residents, and 67 residents responded, representing a 41.36% response rate. Strong majorities of residents exhibited positive views of secondary data analysis. Moreover, in our sample, those with exposure to secondary data analysis research opined that secondary data analysis takes less time and is less difficult to conduct compared to the other residents without curricular exposure to secondary analysis.\nThe survey reflects that residents believe secondary data analysis is worthwhile and this highlights opportunities for data librarians. As current residents matriculate into professional roles as clinicians, educators, and researchers, libraries have an opportunity to bolster support for data curation and education."
+  },
+  {
+   "department": "内科",
+   "pmid": "38432456",
+   "title": "The role of endoscopy in bovine internal medicine - A review of current indication fields.",
+   "journal": "Veterinary journal (London, England : 1997)",
+   "year": "2024",
+   "doi": "10.1016/j.tvjl.2024.106093",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38432456/",
+   "abstract": "Endoscopy in bovine internal medicine has come a long way from the first profound research papers in the 1980s to its present-day use. This paper reviews the progress in the 2000s and identifies the main application fields for diagnostic and therapeutic use. Inclusion criteria for scientific papers and reports encompassed focus on endoscopic examination techniques in cattle in the field of internal medicine and publication in a peer reviewed journal (case report/review/original research paper/short communication). Only papers written in English or German language were considered. Studies on laparoscopy, theloscopy, and bronchoscopy show that endoscopic approaches often enable more rapid and accurate diagnosis and treatment options for single diseased animals as well as on a herd level. Oesophagoscopy, rumenoscopy, cystoscopy and thoracoscopy have also been increasingly studied and proven to be safe and effective tools with some limitations in diagnosing and/or treating various diseases in cattle. Scientific approaches explored the epidural space in cattle and comparison of different endoscope systems lead to recommendations for sinuscopy. Yet, this narrative literature review clearly shows that unlike in human medicine, where endoscopy as a minimally invasive technique is used for countless routine procedures every day, there is still some catching up to do in bovine medicine even though the potential of endoscopy in this field has been documented."
+  },
+  {
+   "department": "内科",
+   "pmid": "2739050",
+   "title": "Formphobia.",
+   "journal": "JAMA",
+   "year": "1989",
+   "doi": "10.1001/jama.262.4.500b",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2739050/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "12700442",
+   "title": "[Dengue fever in internal medicine: a case report].",
+   "journal": "Le infezioni in medicina",
+   "year": "2002",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12700442/",
+   "abstract": "Authors describe a case of dengue fever, accidentally seen for appearance of purple at the lower limbs, fever and fatigue. They want to signal this case not for the difficulty of the diagnosis, because the patient was just arrived from Venezuela and he went, during his travel, in endemic zones for dengue, but because this illness is very uncommon in our Country. Diagnosis was confirmed with the presence of antibody in the serum of the patient and treatment was limited to a careful monitoring of laboratory examination and at an hydratation. Recovery with return to normal value of renal and hepatic function was obtained after 15 days."
+  },
+  {
+   "department": "内科",
+   "pmid": "29880266",
+   "title": "Clinical pearls in gastroenterology.",
+   "journal": "Disease-a-month : DM",
+   "year": "2018",
+   "doi": "10.1016/j.disamonth.2018.05.003",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29880266/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "24997414",
+   "title": "TIA for the internist.",
+   "journal": "The American journal of medicine",
+   "year": "2014",
+   "doi": "10.1016/j.amjmed.2014.06.024",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24997414/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "2366545",
+   "title": "A case report.",
+   "journal": "Journal of the Tennessee Medical Association",
+   "year": "1990",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2366545/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "34893665",
+   "title": "Electronic case report forms generation from pathology reports by ARGO, automatic record generator for onco-hematology.",
+   "journal": "Scientific reports",
+   "year": "2021",
+   "doi": "10.1038/s41598-021-03204-z",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34893665/",
+   "abstract": "The unstructured nature of Real-World (RW) data from onco-hematological patients and the scarce accessibility to integrated systems restrain the use of RW information for research purposes. Natural Language Processing (NLP) might help in transposing unstructured reports into standardized electronic health records. We exploited NLP to develop an automated tool, named ARGO (Automatic Record Generator for Onco-hematology) to recognize information from pathology reports and populate electronic case report forms (eCRFs) pre-implemented by REDCap. ARGO was applied to hemo-lymphopathology reports of diffuse large B-cell, follicular, and mantle cell lymphomas, and assessed for accuracy (A), precision (P), recall (R) and F1-score (F) on internal (n = 239) and external (n = 93) report series. 326 (98.2%) reports were converted into corresponding eCRFs. Overall, ARGO showed high performance in capturing (1) identification report number (all metrics > 90%), (2) biopsy date (all metrics > 90% in both series), (3) specimen type (86.6% and 91.4% of A, 98.5% and 100.0% of P, 92.5% and 95.5% of F, and 87.2% and 91.4% of R for internal and external series, respectively), (4) diagnosis (100% of P with A, R and F of 90% in both series). We developed and validated a generalizable tool that generates structured eCRFs from real-life pathology reports."
+  },
+  {
+   "department": "内科",
+   "pmid": "38376329",
+   "title": "Mandibular metastasis of follicular thyroid carcinoma.",
+   "journal": "Journal of cancer research and therapeutics",
+   "year": "2023",
+   "doi": "10.4103/jcrt.jcrt_1737_21",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38376329/",
+   "abstract": "The orofacial region may be the first site for the dissemination of malignancies from the remote regions in the jawbones. The most common location of metastatic lesions in the jawbones is the mandible, with the molar region the most frequently involved site. Radiotherapy, chemotherapy, and surgical resection can be an approach in the treatment protocol depending upon patient age and growth of tumor mass. This case report presents a case of follicular variant thyroid carcinoma, infiltrative type, pT1bN0Mx with mandibular metastasis affecting both hard and soft tissue in a 55-year-old female."
+  },
+  {
+   "department": "内科",
+   "pmid": "35611484",
+   "title": "[CME Rheumatology 26: Rheumatological Cases].",
+   "journal": "Praxis",
+   "year": "2022",
+   "doi": "10.1024/1661-8157/a003885",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35611484/",
+   "abstract": "CME Rheumatology 26: Rheumatological Cases"
+  },
+  {
+   "department": "内科",
+   "pmid": "35787357",
+   "title": "Erdheim-Chester disease: Diagnosis in endocrinology.",
+   "journal": "Endocrinologia, diabetes y nutricion",
+   "year": "2022",
+   "doi": "10.1016/j.endien.2022.06.004",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35787357/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "41184175",
+   "title": "Leveraging oncology clinical case report data through the Cancer Knowledgebase (CKB).",
+   "journal": "Personalized medicine",
+   "year": "2025",
+   "doi": "10.1080/17410541.2025.2581563",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41184175/",
+   "abstract": "Clinical case reports in oncology are an untapped resource of patient data that include relationships between molecular alterations, tumor types, and response to targeted therapy. A current challenge to widespread utilization of case reports in clinical practice is the lack of systematic organization of clinical evidence across disease types, patient outcomes, therapies, and associated molecular features. To address this challenge, we sought to demonstrate the utility of Cancer Knowledgebase (CKB) (https://ckb.genomenon.com/) in interpreting oncology case report data for health care providers.\nWe analyzed data from 5527 manually curated case reports in CKB to gain insights related to treatment options and patient response associated with specific molecular alterations.\nEach case report in CKB is represented as a unique efficacy evidence annotation and is associated with a specific molecular profile, therapy, indication, and response to therapy. Efficacy evidence from case reports spans over 500 genes, 2800 molecular profiles, and 300 tumor types, including several rare cancers and pediatric tumor types.\nCKB is a powerful resource for leveraging case reports to identify treatment options for patients with rare cancers and oncogenic variants, patients for whom multiple therapies exist, and patients experiencing resistance to first-line therapy."
+  },
+  {
+   "department": "内科",
+   "pmid": "30800892",
+   "title": "A Curriculum to Teach Learners How to Develop and Present a Case Report.",
+   "journal": "MedEdPORTAL : the journal of teaching and learning resources",
+   "year": "2018",
+   "doi": "10.15766/mep_2374-8265.10692",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30800892/",
+   "abstract": "Residents are required by the Accreditation Council for Graduate Medical Education to complete a scholarly project during residency, but they may not have dedicated time or instruction to be able to successfully achieve this goal.\nIn 2013 at Baystate Medical Center, we developed the Case Report Curriculum to guide internal medicine interns through the process of writing and presenting a case report. Core faculty and chief residents facilitate six sessions, which are scheduled throughout the year. Sessions combine large- and small-group discussion with facilitated independent work as well as postsession assignments and timely feedback from course facilitators. Topics include selecting a case report, crafting learning objectives, writing a discussion, authorship and creating a title, generating a poster, and presenting a poster. At the culmination of the conference series, interns present their completed case reports at an institutional academic day where judges critique and score their posters.\nOver the past 4 years, 95%-100% of our interns have participated in the required curriculum and presented their posters. We found that the majority of interns go on to present additional scholarly works at regional and national meetings during their second and third postgraduate years. Due to the success of the curriculum, interns from additional programs within the institution now attend the conference series.\nThe Case Report Curriculum is a successful conference series that guides interns through the process of writing a case and can inspire additional scholarship during residency."
+  },
+  {
+   "department": "内科",
+   "pmid": "17849933",
+   "title": "Asthma.",
+   "journal": "Medsurg nursing : official journal of the Academy of Medical-Surgical Nurses",
+   "year": "2007",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17849933/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "22864810",
+   "title": "Risedronate-associated scleritis: a case report and review of the literature.",
+   "journal": "Clinical rheumatology",
+   "year": "2012",
+   "doi": "10.1007/s10067-012-2035-z",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22864810/",
+   "abstract": "This paper presents the first reported case of risedronate-associated scleritis and conducts a review of bisphosphonates and inflammatory eye diseases. A case of scleritis associated with risedronate use in a 73-year-old Chinese woman is reported. The English medical literature was reviewed for bisphosphonates and their association with inflammatory eye diseases. Cases of ocular inflammation in patients taking bisphosphonates have been reported since the early 1990s. Reported cases include both nitrogen- and non-nitrogen-containing bisphosphonates and with both intravenous and oral use. We report the first case of risedronate-induced scleritis. The case involves a 73-year-old woman who developed scleritis following exposure to risedronate in 2007 with recurrence of scleritis upon risedronate exposure again in 2009. Discontinuation of risedronate and treatment with intravenous and topical corticosteroids resulted in both clinical and radiological improvements within 24 h. Applying Naranjo's adverse drug reaction probability scale, a causality assessment was made which categorized this reaction as definite with a score of 9. In our case, there was a strong causal relationship between the use of risedronate and scleritis. Although rare, ocular adverse effects of bisphosphonates may be serious and should be made known to prescribing physicians. This is important in the practice of rheumatology as many of the patients are prescribed this class of medication for either prevention or treatment of osteoporosis. Moreover, ocular inflammation can be a sign of systemic disease, and such patients may be referred to a rheumatologist."
+  },
+  {
+   "department": "内科",
+   "pmid": "39047247",
+   "title": "Hepatologist Consultation in Low-Risk MASLD.",
+   "journal": "The New England journal of medicine",
+   "year": "2024",
+   "doi": "10.1056/NEJMclde2404875",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39047247/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "20455037",
+   "title": "[Case report--the most important element of continuing education].",
+   "journal": "Medizinische Klinik (Munich, Germany : 1983)",
+   "year": "2010",
+   "doi": "10.1007/s00063-010-1051-5",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20455037/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "37698281",
+   "title": "Images in Vascular Medicine: A case of recurrent hemorrhagic bullae from enoxaparin and then fondaparinux.",
+   "journal": "Vascular medicine (London, England)",
+   "year": "2023",
+   "doi": "10.1177/1358863X231191907",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37698281/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "15109327",
+   "title": "A year of mentoring in academic medicine: case report and qualitative analysis of fifteen hours of meetings between a junior and senior faculty member.",
+   "journal": "Journal of general internal medicine",
+   "year": "2004",
+   "doi": "10.1111/j.1525-1497.2004.30137.x",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15109327/",
+   "abstract": "We describe a specific mentoring approach in an academic general internal medicine setting by audiotaping and transcribing all mentoring sessions in the year. In advance, the mentor recorded his model. During the year, the mentee kept a process journal. Qualitative analysis revealed development of an intimate relationship based on empathy, trust, and honesty. The mentor's model was explicitly intended to develop independence, initiative, improved thinking, skills, and self-reflection. The mentor's methods included extensive and varied use of questioning, active listening, standard setting, and frequent feedback. During the mentoring, the mentee evolved as a teacher, enhanced the creativity in his teaching, and matured as a person. Specific accomplishments included a national workshop on professional writing, an innovative approach to inpatient attending, a new teaching skills curriculum for a residency program, and this study. A mentoring model stressing safety, intimacy, honesty, setting of high standards, praxis, and detailed planning and feedback was associated with mentee excitement, personal and professional growth and development, concrete accomplishments, and a commitment to teaching."
+  },
+  {
+   "department": "内科",
+   "pmid": "3798392",
+   "title": "The risk concept in medicine--statistical and epidemiological aspects: a case report for applied mathematics in cardiology.",
+   "journal": "Theoretical medicine",
+   "year": "1986",
+   "doi": "10.1007/BF00539847",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3798392/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "20336986",
+   "title": "Acute pancreatitis.",
+   "journal": "Medsurg nursing : official journal of the Academy of Medical-Surgical Nurses",
+   "year": "2010",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20336986/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "2630122",
+   "title": "[The ophthalmologist-internal medicine duo: apropos of a case of chronic uveitis].",
+   "journal": "Bulletin des societes d'ophtalmologie de France",
+   "year": "1989",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2630122/",
+   "abstract": "The ophthalmologist is often faced with recurrent or apparently primitive uveitis. The specialist in internal medicine almost never meets first with this type of disease. Taking advantage of a seldom seen sarcoidosis case (almost exclusively ocular), the authors point out the interest of a systematic collaboration when confronted with an endocular disease so called \"inflammatory\", or vascular and in appearance isolated."
+  },
+  {
+   "department": "内科",
+   "pmid": "21841853",
+   "title": "Internal medicine problems as they present to the cardiologist.",
+   "journal": "Texas Heart Institute journal",
+   "year": "2011",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21841853/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "41711371",
+   "title": "Patient Advisory Committee Engagement in a Precision Medicine-Focused Public Oncology Conference: Case Report of Lessons Learned.",
+   "journal": "Journal of primary care & community health",
+   "year": "2026",
+   "doi": "10.1177/21501319261420572",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41711371/",
+   "abstract": "Public partnerships, engagement, and outreach are essential for meaningful knowledge dissemination and exchange activities in public settings. In 2024, we formed the Atlantic Cancer Consortium Patient Advisory Committee (ACC PAC). In March 2025, the ACC PAC delivered a successful public conference on precision medicine and cancer. Our primary objective is to share the perspectives gained, lessons learnt, impact of the event, and recommendations for future public conferences and engagement.\nConference topics were identified by the ACC PAC. Speaker selection and conference promotion were done using various approaches and/or tools. The WebEx virtual platform was used to deliver the conference. This conference was open to all members of the public. A participant satisfaction survey was created using Qualtrics and distributed to registrants during and after the conference. Survey responses were summarized using descriptive statistics when appropriate. ACC PAC members who participated in the conference were encouraged to reflect on their experience.\nThe ACC PAC patient advisors were involved in all key aspects of this conference's organization and delivery. A total of 24 speakers spoke during the conference on various cancer and patient-centered topics. Comments received and self-reflection exercise responses indicated a high level of impact and satisfaction associated with the content and delivery of the conference. Issues experienced, opportunities realized, and good practices implemented, as well as the feedback received helped us develop recommendations for improved delivery of future public conferences and better public engagement activities.\nIn this Case Report, we discuss our learnings from a public conference that was designed and delivered by a public-scientist partnership. Overall, we were able to organize and deliver a successful public conference on precision medicine and cancer, yet there is still room for improvement in practical and technical areas. Our experience, self-reflection, and participant feedback that are described in this manuscript can help inform future public engagement and conference activities in Canada and beyond. Last, we ask decision-makers, such as governments, to provide sustained support for public partnerships and engagement in oncology.Public SummaryThe Atlantic Cancer Consortium Patient Advisory Committee (ACC PAC) is a patient - scientist partnership in Atlantic Canada focusing on precision medicine and cancer, advising the ACC researchers in research and public engagement activities, and actively working to engage with Atlantic Canadians in knowledge dissemination.This group organized and delivered a one-day public conference on March 15, 2025. Topics included patient and family perspectives, precision medicine, cancer risk factors and screening programs, support services offered to cancer-affected individuals, clinical trials, and advocacy. The conference was open to all members of the public. Overall, this was an impactful event centred on patient and family priorities, experiences, as well as on information and support needs.During and after the organization and delivery of this public event, we learnt by experience and from speaker and participant feedback. In this Case Report, we discuss these perspectives, lessons learnt, impact of the event, and recommendations for future public conferences. We also ask for sustained support and emphasis on public partnerships and engagement on cancer from decision-makers."
+  },
+  {
+   "department": "内科",
+   "pmid": "33588945",
+   "title": "Tophaceous gout of the atlantoaxial joint: a case report.",
+   "journal": "Journal of medical case reports",
+   "year": "2021",
+   "doi": "10.1186/s13256-020-02638-9",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33588945/",
+   "abstract": "To report the occurrence of tophaceous gout in the cervical spine and to review the literature on spinal gout.\nThis report details the occurrence of a large and clinically significant finding of tophaceous gout in the atlantoaxial joint of the cervical spine in an 82-year-old Caucasian man with a 40-year history of crystal-proven gout and a 3-month history of new-onset progressive myelopathy. The patient's American College of Rheumatology/European League Against Rheumatism (ACR/EULAR) criteria score was 15.0.\nSpinal gout is more common than previously thought, and it should be considered in patients who present with symptoms of myelopathy. Diagnosis can be made without a tissue sample of the affected joint(s) with tools like the ACR/EULAR criteria and the use of the \"diagnostic clinical rule\" for determining the likelihood of gout. Early conservative management with neck immobilization and medical management can avoid the need for surgical intervention."
+  },
+  {
+   "department": "内科",
+   "pmid": "32590536",
+   "title": "Nine lives.",
+   "journal": "JAAPA : official journal of the American Academy of Physician Assistants",
+   "year": "2020",
+   "doi": "10.1097/01.JAA.0000668860.29698.79",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32590536/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "25316584",
+   "title": "Learning to read.",
+   "journal": "Journal of general internal medicine",
+   "year": "2015",
+   "doi": "10.1007/s11606-014-3011-x",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25316584/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "30908141",
+   "title": "Prognostication and Communication in Oncology.",
+   "journal": "Journal of oncology practice",
+   "year": "2019",
+   "doi": "10.1200/JOP.18.00647",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30908141/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "35778357",
+   "title": "Dyslipidaemia in patients with haematology/oncology diseases.",
+   "journal": "Endocrinologia, diabetes y nutricion",
+   "year": "2022",
+   "doi": "10.1016/j.endien.2021.03.005",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35778357/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "37796237",
+   "title": "Spinal ATRT and Radiotherapy Case Report in an Adult Man.",
+   "journal": "Oncology (Williston Park, N.Y.)",
+   "year": "2023",
+   "doi": "10.46883/2023.25921004",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37796237/",
+   "abstract": "Atypical teratoid/rhabdoid tumor (ATRT) is usually seen in children and is usually located intracranially; it generally has a poor prognosis. Due to this tumor's rarity and the lack of randomized controlled trials, it has been challenging to define optimal therapy and to make treatment advances. Treatment options are surgery, chemotherapy, and radiotherapy. This is a case report of a man with spinal ATRT, aged 44 years, who was treated with radiotherapy."
+  },
+  {
+   "department": "内科",
+   "pmid": "38236471",
+   "title": "Points of view in nephrology: personalized management of IgA nephropathy, beyond KDIGO.",
+   "journal": "Journal of nephrology",
+   "year": "2024",
+   "doi": "10.1007/s40620-023-01833-3",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38236471/",
+   "abstract": "IgA nephropathy is the most common primary glomerulonephritis worldwide, and an important cause of kidney failure, as 20-40% of patients progress to renal replacement therapy 20-30 years after diagnosis. Its clinical presentation ranges from isolated microscopic hematuria to nephrotic syndrome, and even to a rapidly progressive course. Ethnicity and epigenetics play a key role in its clinical aggressiveness. Selection of patients at risk needing immunosuppressive treatment is a challenge for the nephrologist. Some active and chronic kidney lesions detected on kidney biopsy have been demonstrated to have prognostic value according to the Oxford Classification of IgA nephropathy, later validated by numerous studies. However, KDIGO 2021 guidelines still consider persistent proteinuria > 1 g/24 h to be the most relevant risk factor for the progression of IgA nephropathy and the only one requiring immunosuppressive treatment. KDIGO guidelines have proposed a therapeutic algorithm, but many patients present peculiar characteristics that are not addressed by the current guidelines, pointing to the need for alternative approaches. In these cases, a tailored approach to each patient should be followed in which clinical, histological, laboratory, social and ethical aspects must be considered. In this manuscript we present three cases of IgA nephropathy from different countries, highlighting many of the aspects encountered in clinical practice that illustrate an individualized approach to the treatment of these patients."
+  },
+  {
+   "department": "内科",
+   "pmid": "39772610",
+   "title": "How to Use Imaging: Complex Cases of Atherosclerosis, Myocardial Inflammation, and Cardiomyopathy in Cardio-Oncology.",
+   "journal": "Circulation. Cardiovascular imaging",
+   "year": "2025",
+   "doi": "10.1161/CIRCIMAGING.124.015981",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39772610/",
+   "abstract": "It is well understood that cancer therapies including chemotherapy, tyrosine kinase inhibitors, immune checkpoint inhibitors, and radiation can increase the risk of cardiovascular disease in patients with cancer. This can manifest as a multitude of pathologies including left ventricular dysfunction, myocarditis, cardiomyopathy, accelerated atherosclerosis, and coronary vasospasm. Multimodal cardiac imaging plays a critical role in diagnosing such pathologies by relying on noninvasive tools including echocardiograms, cardiac magnetic resonance imaging, positron emission tomography, single-photon emission computed tomography, and coronary computed tomography angiography. These methods have unique considerations and in recent years have made significant progress in their diagnostic capabilities in this patient population. As the field of cardio-oncology continues to expand rapidly, guidance on the management of such toxicities and the development of imaging technologies is crucial. In this review, we present 2 complex cases of atherosclerosis and myocarditis in patients with cancer, highlighting our rationale for management and discussing the nuances of various cardiac imaging modalities."
+  },
+  {
+   "department": "内科",
+   "pmid": "37343074",
+   "title": "Images in Vascular Medicine: A rare case of intimomedial mucoid degeneration of the carotid artery.",
+   "journal": "Vascular medicine (London, England)",
+   "year": "2023",
+   "doi": "10.1177/1358863X231180234",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37343074/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "21193658",
+   "title": "Clinical pearls in general internal medicine.",
+   "journal": "Mayo Clinic proceedings",
+   "year": "2011",
+   "doi": "10.4065/mcp.2010.0462",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21193658/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "26995410",
+   "title": "Are medical breakthroughs declining - The importance of case reports?",
+   "journal": "Indian heart journal",
+   "year": "2015",
+   "doi": "10.1016/j.ihj.2016.01.005",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26995410/",
+   "abstract": "Case reports are a valuable though oft-underestimated source of clinical knowledge, even wisdom. They are extremely valuable to clinicians faced with new diseases, new investigations, and new therapies, where they provide the initial information, which serves as a basis to plan a detailed comparative study to provide definitive answers. The publication of cases and images-related reports is undoubtedly a gain for all, including medical students, medical teachers, the scientific community, medical professionals, healthcare managers, and patients."
+  },
+  {
+   "department": "内科",
+   "pmid": "41744068",
+   "title": "Disorders of Volume: Core Curriculum 2025.",
+   "journal": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
+   "year": "2025",
+   "doi": "10.1053/j.ajkd.2024.09.008",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41744068/",
+   "abstract": "Historically, the paradigm for all maladies was associated with an imbalance of the 4 humors: blood, black bile, yellow bile, and phlegm. Although our understanding of disease has evolved significantly since the time of Hippocrates, a similar cornerstone of inpatient and ambulatory care involves understanding and correcting imbalances of volume. The kidneys are the principal organs controlling extracellular volume, capable of both sensing and altering salt retention through multiple redundant pathways, including the sympathetic nervous system and the renin-angiotensin-aldosterone system. Various disease states including sepsis, heart failure, and liver cirrhosis can dramatically alter the movement of volume across body compartments, leading to pathologic responses. Greater understanding of the role of the endothelial glycocalyx, the harms of volume overload among critically ill patients, and the impact of venous congestion on kidney function has challenged the traditional paradigms of volume management. Because both hypovolemia and hypervolemia are symptomatic conditions associated with adverse outcomes, managing volume is an essential skill for the nephrologist. In this Core Curriculum, we review the physiology of volume disorders and management strategies through a series of clinical cases."
+  },
+  {
+   "department": "内科",
+   "pmid": "12763172",
+   "title": "[Medical-psychiatric units, a concept to be developed].",
+   "journal": "La Revue de medecine interne",
+   "year": "2003",
+   "doi": "10.1016/s0248-8663(03)00051-1",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12763172/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "12228111",
+   "title": "An unfolding case with a linked OSCE: a curriculum in inpatient geriatric medicine.",
+   "journal": "Academic medicine : journal of the Association of American Medical Colleges",
+   "year": "2002",
+   "doi": "10.1097/00001888-200209000-00044",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12228111/",
+   "abstract": "This study sought to design, implement, and evaluate a unique educational curriculum in inpatient geriatrics for internal medicine housestaff.\nTraditionally the didactic curriculum on an inpatient geriatrics unit varies according to the attending faculty on service, the types of patients admitted, and preferences of the housestaff and students-in-training. However, a more structured educational curriculum would allow for comprehensive attention to, and a detailed exploration of, the principles of geriatric care necessary to effectively treat all hospitalized older adults. We have developed a unique curriculum using an unfolding case that is followed by an OSCE, which assesses the knowledge and skills gained by the learners. An unfolding case is one that evolves over time and is unpredictable to the learners when they begin participating in the curriculum. It is well suited to postgraduate training and assessment since the learner must develop a differential diagnosis, discuss possible work-ups, and use the work-ups' results to reassess the case as it unfolds. Our scripted case, administered by a geriatrics fellow rotating on the unit, follows an ambulatory geriatric patient from her admission throughout her treatment and until the end of her stay. It culminates in a decision-making session about her functional ability and hence her discharge plans. Moreover, several topics relevant to inpatient geriatrics, including dementia, delirium, falls, urinary incontinence, wound care, and depression, are covered in three one-hour sessions. Written examinations or pre- and post-testing after an intervention are better suited to the early years of medical training but provide poor measures of curriculum mastery and clinical competency. Alternatively, our OSCE approach uses \"stations\" and \"interstations\" that provide a structured and timed opportunity to test these skills and assess specific areas of knowledge. We have designed a five-station, five-interstation OSCE that is conducted one week after the unfolding case-based conferences have ended. Learners are evaluated by attending physicians and given immediate feedback after each station and interstation.\nThis newly developed project has been implemented as a standardized curriculum on our inpatient geriatrics unit since September 2001. Thus far, it has been extremely well received by housestaff because of real-time assessment and review of the materials covered during the month. In addition, this progressive approach has provided an excellent forum for geriatrics fellows to develop teaching skills. Attending physicians have shown their support, finding the content to be appropriate and relevant to inpatient geriatrics. Finally, this didactic approach will be continued on our unit and a modified version is being developed and piloted for other unit staff."
+  },
+  {
+   "department": "内科",
+   "pmid": "26179957",
+   "title": "Factitious disorder (Munchausen's syndrome) in oncology: case report and literature review.",
+   "journal": "Psycho-oncology",
+   "year": "2016",
+   "doi": "10.1002/pon.3906",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26179957/",
+   "abstract": "Factitious disorder is where patients repeatedly seek medical care for feigned illnesses in the absence of obvious external rewards; 'Munchausen's syndrome' is the historical name for this disorder.\nWe report on a case that was presented to a tertiary oncology center as a suspected rare bone cancer.\nPsychosocial clinicians working in oncology settings should be aware of the complexities of diagnosing factitious disorder in cancer settings where empathy is prominent and suspicion unusual. Moreover, comorbidity can cloud the diagnosis (in this case substance abuse), and, even when accurately diagnosed, there are no evidence-based management approaches to offer to the patient. What seems to linger most after the patient is discharged, usually in a huff, are strong counter-transference feelings and substantial medical bills. Copyright © 2015 John Wiley & Sons, Ltd."
+  },
+  {
+   "department": "内科",
+   "pmid": "34181577",
+   "title": "Case Report: Extrapulmonary Manifestations of COVID-19 and Dengue Coinfection.",
+   "journal": "The American journal of tropical medicine and hygiene",
+   "year": "2021",
+   "doi": "10.4269/ajtmh.21-0177",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34181577/",
+   "abstract": "The risk of coronavirus disease 2019 (COVID-19) and dengue coinfection is increased in tropical countries; however, the extrapulmonary clinical manifestations have not been fully characterized. We report a 42-year-old woman whose clinical manifestations began with fever, diarrhea, headache, chest pain, myalgia, odynophagia, and arthralgia. Despite mild respiratory symptoms and normal chest computed tomography scan results, she was diagnosed with real-time reverse-transcription polymerase chain reaction (RT-PCR)-confirmed severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection. Because she had erythema and petechiae with a decreased platelet count, the dengue NS1 antigen and anti-dengue IgM/IgG test were performed, and the Centers for Disease Control and Prevention RT-PCR assay detected the dengue virus serotype 1 infection. Additionally, increased liver enzyme serum levels were found in the patient, who later developed hepatomegaly. Hence, the mechanism of hepatic pathology associated with SARS-CoV-2 and dengue coinfection needs further research."
+  },
+  {
+   "department": "内科",
+   "pmid": "39052075",
+   "title": "[Interdisciplinary centers for autoimmune diseases in Germany].",
+   "journal": "Zeitschrift fur Rheumatologie",
+   "year": "2024",
+   "doi": "10.1007/s00393-024-01542-7",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39052075/",
+   "abstract": "Interdisciplinary medical treatment is required to care for patients with complex autoimmune diseases. Although there are an increasing number of interdisciplinary centers for autoimmune diseases in Germany, they are not yet available throughout the country and the focuses and interdisciplinary structures are not organized according to a generally agreed standard. Furthermore, they are not regularly reflected in the general care structure.\nTo analyze the care structure using as an example an established center and a clinical case to demonstrate the usefulness of in-house standardized procedures.\nIn order to determine the status quo regarding interdisciplinary centers for autoimmune diseases in Germany, a university hospital is exemplarily presented for a structural analysis and a case presentation from another center to demonstrate the importance of an interdisciplinary patient care.\nAt the selected center for autoimmune diseases of the university hospital, patients with autoimmune diseases receive interdisciplinary care from experts from various disciplines. The structures are anchored in an organizational chart. The case report demonstrates a standardized diagnostic and therapeutic pathway (standardized operating procedures, SOP) in a patient with systemic sclerosis and lung involvement.\nThe article discusses which measures are necessary across disciplines for comprehensive diagnostics and treatment of certain autoimmune diseases, which challenges arise during implementation and which advantages can arise compared to guidelines because, among other things, they can be immediately adapted. The establishment of a national consensus for the structure, necessary settings and implementation into patient care within an interdisciplinary center for autoimmune diseases is desirable.\nHINTERGRUND: Die Betreuung von Patient:innen mit komplexen Autoimmunerkrankungen erfordert eine interdisziplinäre medizinische Versorgung. In Deutschland gibt es zwar eine zunehmende Anzahl von interdisziplinär arbeitenden Zentren für Autoimmunerkrankungen, jedoch sind sie noch nicht flächendeckend vorhanden und ihre Schwerpunkte und interdisziplinären Strukturen häufig nicht nach einem allgemein konsentierten Standard organisiert. Ferner sind sie bislang nicht regelhaft in der allgemeinen Versorgungsstruktur abgebildet.\nDie Versorgungsstruktur für Autoimmunpatient:innen am Beispiel eines etablierten universitären Zentrums und eines klinischen Falls wird analysiert.\nUm exemplarisch eine Standortbestimmung interdisziplinär arbeitender Autoimmunzentren in Deutschland durchzuführen, wurden ein Universitätsklinikum für die Strukturanalyse sowie eine Fallvorstellung zur Betrachtung der klinischen Betreuung ausgewählt.\nIn dem ausgewählten Universitätsklinikum werden Patient:innen mit Autoimmunerkrankungen durch Expert*innen verschiedener Fachdisziplinen interdisziplinär betreut. Die Strukturen sind in einem Organigramm verankert. Mithilfe standardisierter Diagnostik- und Therapiepfade („standard operating procedures“ [SOP]) werden Maßnahmen, die für eine jeweils umfassende Diagnostik und Therapie bestimmter Autoimmunerkrankungen fachübergreifend nötig sind, festgelegt. Der von uns vorgestellte Fall stellt anhand einer Patientin mit systemischer Sklerose und Lungenbeteiligung dar, wie ein standardisierter diagnostischer und therapeutischer Pfad in der Praxis umgesetzt werden kann.\nWir diskutieren, welche Maßnahmen fachübergreifend für eine umfassende Diagnostik und Therapie bestimmter Autoimmunerkrankungen notwendig sind, welche Herausforderungen sich bei der Umsetzung ergeben und welche Vorteile sich gegenüber Leitlinien ergeben können – unter anderem weil sie sofort an neue Erkenntnisse angepasst werden können. Die Etablierung eines nationalen Konsenses für den Aufbau, die erforderlichen Strukturen und die Umsetzung in der Patient:innenversorgung innerhalb interdisziplinär arbeitender Zentren für Autoimmunerkrankungen in Deutschland ist wünschenswert."
+  },
+  {
+   "department": "内科",
+   "pmid": "13825813",
+   "title": "Primary chickenpox (varicella) pneumonia: report of two cases seen in the private practice of internal medicine.",
+   "journal": "Annals of internal medicine",
+   "year": "1959",
+   "doi": "10.7326/0003-4819-51-3-583",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/13825813/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "1475655",
+   "title": "[Internal medicine today--and tomorrow?].",
+   "journal": "Schweizerische medizinische Wochenschrift",
+   "year": "1992",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1475655/",
+   "abstract": "Internal medicine has recently undergone major changes, which have created--among others--4 feelings of alienation among physicians: first, the internist--initially an observer of clinical signs, and later laboratory-assisted--has now become operator-assisted with modern technology in imaging and other technologies assisting him by giving him not the essence, but the interpretation of the gathered information; second, the dialogue between basic biomedical research and the bedside clinician has been interrupted by the creation of a new language in molecular genetics, to which he has no access any more; third, modern biotechnology is rapidly creating an unlimited number of new biological therapeutic modalities, giving the internist too many therapeutic options which he can no longer master. Fourth, the formerly direct, bipolar relationship between patient and physician has been extended to a triangular relationship between patient, physician and an institution (hospital administration, public health authority, health insurance). In order to solve these problems, internal medicine has several options. First, maintaining the dialogue in research across subspecialties by creating a group of full time clinical investigators, with training in basic molecular and cellular biology, who can be the interface between modern molecular genetics and clinical internal medicine; and second, developing new clinical investigators to evaluate our diagnostic and therapeutic strategies with a logical and scientific methodology: patient care analysis, health care research, medical outcome evaluation and quality assessment are all disciplines which will link the various fields of internal medicine into a tight network. To do this, the Swiss Society of Internal Medicine has to modify its structures, to become a scientific and a professional organization, cognizant of the evolution of medicine within the European scene."
+  },
+  {
+   "department": "内科",
+   "pmid": "12915369",
+   "title": "Hospital to home: Improving internal medicine residents' understanding of the needs of older persons after a hospital stay.",
+   "journal": "Academic medicine : journal of the Association of American Medical Colleges",
+   "year": "2003",
+   "doi": "10.1097/00001888-200308000-00009",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12915369/",
+   "abstract": "Physicians-in-training discharge many older patients from the hospital, but few have any knowledge of what happens to the patients they send home, of how discharge plans are applied, or of the difficulties patients and their families face. The authors describe a pilot program, Hospital to Home, at the University of Rochester School of Medicine and Dentistry's internal medicine residency program, which uses home visits as an educational tool in geriatrics training. The program was begun in July 2001, and 23 residents have participated. Home visits expose residents in their first-year geriatrics rotation to the elements and outcomes of discharge planning and create a heightened awareness of the needs of older persons recently discharged from the hospital. The home visits are videotaped, and the residents present a videoconference based on the visits, which are attended by internal medicine residents, family medicine residents, and medical students. The authors describe the three-part Hospital to Home program, three vignettes that highlight learning experiences, and the residents' feedback about the experience and the use of audiovisual recording for education."
+  },
+  {
+   "department": "内科",
+   "pmid": "36919392",
+   "title": "Very Early Diagnosis of Systemic Sclerosis in Clinical Practice - Case Report and Review of the Literature.",
+   "journal": "Acta dermatovenerologica Croatica : ADC",
+   "year": "2022",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36919392/",
+   "abstract": "Systemic sclerosis (SSc) is a systemic autoimmune disease characterised by generalized microangiopathy and fibrosis of skin and internal organs. The 2013 American College of Rheumatology (ACR) / European League Against Rheumatism (EULAR) criteria have contributed considerably to classifying patients with SSc in earlier stages, but they still lack sensitivity for a very early stage of the disease. Criteria for a very early diagnosis of SSc (VEDOSS) have been proposed by EULAR Scleroderma Trial and Research group (EUSTAR) which include three red flags: Raynaud's phenomenon, puffy fingers and antinuclear antibody positivity, plus SSc specific antibodies positivity and/or abnormal nailfold capillaroscopy. We report a case of a 54-year-old female patient with 6-week history of puffy fingers, Raynaud phenomenon and positive antinuclear antibodies. Further workup revealed early pathologic capillary pattern by nailfold capillaroscopy and positive anticentromere antibodies. Screening for internal organ involvement detected no heart, lung, or upper gastrointestinal tract involvement. The patient was started on pentoxifylline with further follow-up. The aim of the implementation of VEDOSS criteria is to diagnose SSc at the earliest possible stage, so that subclinical internal organ involvement could be detected and appropriate treatment started at a potentially reversible stage."
+  },
+  {
+   "department": "内科",
+   "pmid": "29405852",
+   "title": "James Herrick (1861-1954): Consultant physician and cardiologist.",
+   "journal": "Journal of medical biography",
+   "year": "2018",
+   "doi": "10.1177/0967772017745701",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29405852/",
+   "abstract": "In 1910, James Bryan Herrick published the first clinical and laboratory description of sickle cell anemia. Two years later, he published a case report on coronary thrombosis. Together, these case reports solidified his reputation as one of the premier diagnosticians of his generation. Now regarded as a central figure in the history of American medicine, Herrick played an integral role in the clinical adoption of the electrocardiograph and the professionalization of cardiology in the United States. Although a full decade passed before the medical profession recognized his clinical description of coronary thrombosis and myocardial infarction, it has had profound implications for cardiovascular medicine and prevention over the past hundred years. As a consultant physician, Herrick advocated in favor of incorporating chemistry and laboratory evaluation into clinical practice."
+  },
+  {
+   "department": "内科",
+   "pmid": "35261054",
+   "title": "Subacute thyroiditis following COVID-19 vaccination: Case report and Society for Endocrinology survey.",
+   "journal": "Clinical endocrinology",
+   "year": "2023",
+   "doi": "10.1111/cen.14716",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35261054/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "27107056",
+   "title": "Catatonia as an internal medicine disease: infrequent or still underdiagnosed?",
+   "journal": "BMJ case reports",
+   "year": "2016",
+   "doi": "10.1136/bcr-2015-214233",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27107056/",
+   "abstract": "Catatonia is a motor and behavioural syndrome with multiple psychiatric, general medical and neurological aetiologies that might be simultaneously present. B12 deficiency is a rare, treatable cause of catatonia, not always easy to rule out. The authors present a case of a woman with catatonia associated with severe cyanocobalamin deficiency, admitted to an internal medicine ward. The benign course was related to an adequate and early diagnosis."
+  },
+  {
+   "department": "内科",
+   "pmid": "20713331",
+   "title": "Endocrine hypertension: then and now.",
+   "journal": "Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists",
+   "year": "2010",
+   "doi": "10.4158/EP10205.RA",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20713331/",
+   "abstract": "To review the first reported cases of successfully treated pheochromocytoma and primary aldosteronism and to document the diagnostic and therapeutic advances that have occurred since the initial descriptions.\nThe original case descriptions and the subsequent pertinent literature were reviewed.\nThe successful management of the initial cases of pheochromocytoma in 1926 and primary aldosteronism in 1954 was highlighted by keen clinical observation, clinical intuition, and application of scientific principles. Since those prismatic case descriptions, the technological advances in laboratory-based diagnosis, radiology-based tumor localization, and surgical approaches to the adrenal glands have been truly remarkable.\nThe evolution in the diagnosis and treatment of pheochromocytoma will continue to progress as we identify more genetic causes, develop biochemical markers for \"preclinical\" pheochromocytoma, identify better markers for malignant disease, and develop more effective treatment options for malignant pheochromocytoma. Over the next decade, we hope to determine the pathophysiology for bilateral idiopathic hyperaldosteronism, develop less invasive and less technically demanding tests to distinguish between unilateral aldosterone-producing adenoma and bilateral idiopathic hyperaldosteronism, determine where low renin hypertension stops and primary aldosteronism starts, and determine the impact of genetic and environmental factors on aldosterone secretion in patients with and without primary aldosteronism."
+  },
+  {
+   "department": "内科",
+   "pmid": "31939102",
+   "title": "Expanded indications for auto-lung transplant technique.",
+   "journal": "General thoracic and cardiovascular surgery",
+   "year": "2020",
+   "doi": "10.1007/s11748-020-01289-3",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31939102/",
+   "abstract": "Lung autotransplantation was originally developed to avoid pneumonectomy for centrally located lung cancer. We herein report our experience with lung autotransplantation for the treatment of various types of lung diseases.\nThis is a single-center case series of lung autotransplantation with ex vivo bench surgery. Five patients underwent lung autotransplantation between September 2014 and October 2018. A common surgical technique was as follows: pneumonectomy was first completed. The intact lobes were then separated ex vivo, flushed using cold ET-Kyoto solution on a back table, and reimplanted.\nThe indications for lung autotransplantation were postpneumonectomy-like syndrome, locally advanced lung cancer, pulmonary artery sarcoma, central lung cancer, and bronchopleural fistula after right upper bronchial sleeve lobectomy. No major post-transplant complications were observed except for mild stenosis of bronchial anastomosis in one case that required bronchial intervention. One patient died of recurrence of pulmonary artery sarcoma 14 months after surgery. The other patients are alive without any recurrence of the native respiratory diseases or symptoms.\nLung autotransplantation following ex vivo bench surgery was found to be technically feasible for various lung diseases, showing a favorable early post-transplant outcome."
+  },
+  {
+   "department": "内科",
+   "pmid": "39406697",
+   "title": "Pitfalls of reasoning in hospital-based transfusion medicine.",
+   "journal": "Transfusion medicine (Oxford, England)",
+   "year": "2024",
+   "doi": "10.1111/tme.13104",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39406697/",
+   "abstract": "Hospital-based transfusion involves hundreds of daily medical decisions. Medical decision-making under uncertainty is susceptible to cognitive biases which can lead to systematic errors of reasoning and suboptimal patient care. Here we review common cognitive biases that may be relevant for transfusion practice.\nBiases were selected based on categorical diversity, evidence from healthcare contexts, and relevance for transfusion medicine. For each bias, we provide background psychology literature, representative clinical examples, considerations for transfusion medicine, and strategies for mitigation.\nWe report seven cognitive biases relating to memory (availability heuristic, limited memory), interpretation (framing effects, anchoring bias), and incentives (search satisficing, sunk cost fallacy, feedback sanction).\nPitfalls of reasoning due to cognitive biases are prominent in medical decision making and relevant for hospital transfusion medicine. An awareness of these phenomena might stimulate further research, encourage corrective measures, and motivate nudge-based interventions to improve transfusion practice."
+  },
+  {
+   "department": "内科",
+   "pmid": "31831671",
+   "title": "Preventing Self-Harm From Repeat Foreign-Body Ingestion.",
+   "journal": "Pediatrics",
+   "year": "2020",
+   "doi": "10.1542/peds.2019-1515",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31831671/",
+   "abstract": "Mental health disorders in adolescents present some of the most challenging of all ethical dilemmas. This is particularly true when they lead to self-injurious behavior that can only be prevented by either limiting the freedom of the adolescent or forcing treatments on them that they do not want. Intentional and repeated foreign-body ingestion (FBI) in youth is a poorly understood self-injurious behavior that can be life-threatening. It poses unique clinical and ethical challenges. Ingestion of sharp or magnetic objects increases the need for endoscopic retrieval or surgical intervention with associated risks, including perforation and anesthesia-related adverse events. When behavior modification efforts fail to prevent recurrent FBI, the cumulative risk of medical intervention mounts. Sometimes, as a last resort, doctors consider surgical procedures that limit jaw movement and may physically prevent recurrent FBI. In this Ethics Rounds article, we present a case in which doctors consider whether it is in the best interest of a teenager with this behavior to undergo orthodontic jaw wiring as a next step in treatment of repeated FBI. Doctor commentary on the ethical decision-making process is provided."
+  },
+  {
+   "department": "内科",
+   "pmid": "18422101",
+   "title": "[Pitfalls of cardiologic consultation in internal medicine: an obvious case of alcoholic liver cirrhosis].",
+   "journal": "Giornale italiano di cardiologia (2006)",
+   "year": "2008",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18422101/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "22418752",
+   "title": "Delayed HIV testing in internal medicine clinics - a missed opportunity.",
+   "journal": "The Netherlands journal of medicine",
+   "year": "2012",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22418752/",
+   "abstract": "As HIV infection may be non-symptomatic for many years, many HIV-infected individuals are not aware of their infection. At a certain point in time non-specific symptoms may occur for which patients are likely be referred to internal medicine outpatient clinics. In the absence of systematic screening for HIV and in particular in patients who do not have classical risk factors for HIV, the diagnosis of HIV infection may easily be overlooked. In this manuscript it is illustrated that this diagnostic and therapeutic delay can lead to increased morbidity and mortality. Moreover, undiagnosed individuals are on average more likely to transmit HIV than diagnosed individuals. It is important for public health to identify people harbouring HIV infection, as this is expected to reduce the number of new infections. HIV infection should be considered a possible cause of unexplained symptoms in an early stage of the diagnostic process, in particular in patients with symptoms such as unexplained fever, lymphadenopathy or weight loss or in the presence of conditions suggestive of possible immune deficiency, regardless of the absence of risk factors."
+  },
+  {
+   "department": "内科",
+   "pmid": "34194389",
+   "title": "Case Report: Severe Hypocalcemic Episodes Due to Autoimmune Enteropathy.",
+   "journal": "Frontiers in endocrinology",
+   "year": "2021",
+   "doi": "10.3389/fendo.2021.645279",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34194389/",
+   "abstract": "Autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy (APECED) is a rare monogenic disorder, associated with endocrine deficiencies and non-endocrine involvement. Gastrointestinal (GI) manifestations appear in approximately 25% of patients and are the presenting symptom in about 10% of them. Limited awareness among pediatricians of autoimmune enteropathy (AIE) caused by destruction of the gut endocrine cells in APECED patients delays diagnosis and appropriate therapy. We describe an 18-year-old female presenting at the age of 6.10 years with hypoparathyroidism, oral candidiasis and vitiligo. The clinical diagnosis of APECED was confirmed by sequencing the autoimmune regulator-encoding ("
+  },
+  {
+   "department": "内科",
+   "pmid": "34702096",
+   "title": "Images in Vascular Medicine: Numb and painful forearm - a case of vascular access-induced monomelic neuropathy.",
+   "journal": "Vascular medicine (London, England)",
+   "year": "2022",
+   "doi": "10.1177/1358863X211051429",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34702096/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "8984458",
+   "title": "Quality of lives.",
+   "journal": "Postgraduate medicine",
+   "year": "1996",
+   "doi": "10.3810/pgm.1996.12.123",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8984458/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "33309128",
+   "title": "Quadricuspid aortic valve with a hidden left ostium: Case report and literature review.",
+   "journal": "Revista portuguesa de cardiologia",
+   "year": "2021",
+   "doi": "10.1016/j.repc.2018.04.012",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33309128/",
+   "abstract": "Quadricuspid aortic valve (QAV) is a rare congenital condition that frequently progresses to aortic regurgitation with clinical impact in adulthood. Surgical treatment is required in the fifth to sixth decade of life in about one fifth of patients. We describe the case of a 64-year-old woman with regular cardiological follow-up for severe aortic valve regurgitation who had suffered recent clinical and echocardiographic deterioration. Conventional open surgery was indicated. During the procedure, a QAV with leaflet retraction and central orifice was observed. The aortic valve was successfully replaced."
+  },
+  {
+   "department": "内科",
+   "pmid": "32026178",
+   "title": "Integrity of clinical research conduct, reporting, publishing, and post-publication promotion in rheumatology.",
+   "journal": "Clinical rheumatology",
+   "year": "2020",
+   "doi": "10.1007/s10067-020-04965-0",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32026178/",
+   "abstract": "The number of rheumatology journals, and papers related to this specialty, is expanding every day. Careful consideration for ethical aspects of such published work is mandatory for authors, readers, reviewers, editors, and all stakeholders. Recent instances of lack of appropriate research ethics committee overview, or participant consent for inclusion in the research study, or a case report, resulting in retractions, emphasize the need for greater awareness regarding these ethical aspects. Authors should strive to avoid redundancy, especially for review articles, both systematic and narrative. Clinical trial registration before commencing enrolment is mandatory as per contemporary norms. Transparent declaration of authorship contributions as well as appropriate attribution of authorship are recommended, since these may help avoid subsequent authorship conflicts. Authors, reviewers, and editors should disclose conflicts of interest, both financial and non-financial. Unbiased peer review is a critical part of editorial decision making; recent instances of peer review fraud have resulted in numerous retractions of scientific papers. Any reproduction of text, figures, or tables should be with due attribution to source, and after seeking permission of the copyright holder. Citations to published work should be relevant and diverse. Research assessment should rely on the assessment of quality of published work, rather than mere citation analyses. Authors should beware predatory, low-quality journals, and utilize social media channels to ethically promote their research with due consideration to privacy and copyright. Rheumatology societies should collaborate to develop guidelines for ethical research reporting, and educate young scientists regarding these principles."
+  },
+  {
+   "department": "内科",
+   "pmid": "21961104",
+   "title": "A case report of abdominal splenosis - a practical mini-review for a gastroenterologist.",
+   "journal": "Journal of gastrointestinal and liver diseases : JGLD",
+   "year": "2011",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21961104/",
+   "abstract": "Splenosis is a benign condition caused by ectopic autotransplantation of splenic tissues after splenic trauma or surgery. It is usually diagnosed accidentally. However, occasionally splenosis poses a significant diagnostic dilemma, especially when this condition presents as a metastatic malignant disease on abdominal imaging. This is the case report of a 54-year-old woman, who underwent post-traumatic splenectomy at the age of 12 years. The physical examination of this patient complaining of epigastric and low back pain, except for postoperative abdominal scar, as well as laboratory tests were normal. Esophagogastroduodenoscopy showed chronic gastritis. Abdominal ultrasound revealed no spleen, enlarged lymph nodes in the right retroperitoneum and a focal lesion in the uterus. In addition, the CT scan disclosed enlarged left hepatic lobe, numerous oval tumors between intestinal loops, in the caecal region, under the diaphragm and abdominal wall, periaortic enlarged lymph nodes and an osteolytic lesion in the first lumbar vertebra, suggesting disseminated malignant disease. The exploratory laparotomy showed multiple abdominal nodules, a tumor of the ileum, the greater omentum and the uterus. Except for the last one (leiomyoma), all excised tumors proved to have histological structure typical for the spleen and, finally, abdominal splenosis was diagnosed. Splenosis should be considered when a differential diagnosis of tumor-like lesions disclosed on abdominal imaging occurs in a patient with a splenic injury in the past."
+  },
+  {
+   "department": "内科",
+   "pmid": "35730140",
+   "title": "Pseudo-erythroblastosis on Sysmex XN hematology analyzers: a clue to Candida sepsis. Case report and literature review.",
+   "journal": "Clinical chemistry and laboratory medicine",
+   "year": "2022",
+   "doi": "10.1515/cclm-2022-0486",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35730140/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "27790959",
+   "title": "IgG4 Related Syndrome: Another Multiorgan Disease in the Interest Field of Internal Medicine.",
+   "journal": "Current pharmaceutical design",
+   "year": "2016",
+   "doi": "10.2174/138161282230160907202925",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27790959/",
+   "abstract": "IgG4-related disease is a rare, clinical and pathologic disease entity of unknown etiology. Its main features are increased serum concentrations of IgG4 > 1,35 g/l, lymphocyte and IgG4+plasma-cell infiltration within tissues, fibrosis or sclerosis. The classical presentation of IgG4-RSD is pancreatitis which is combined with the involvement of biliary ducts in 74 percent of patients. Extrapancreatic manifestations include: abdominal or mediastinal lymphadenopathy; the involvement of salivary glands and lacrimal glands, kidneys, lung, retroperitoneum. Since IgG4-related disease is a multiorgan lymphoproliferative syndrome, it requires a careful differential diagnosis from other distinct disorders (sarcoidosis, immune rheumatic diseases, hematologic diseases, malignancies). Another distinctive feature is a fairly fast response to steroids, that represents the first-choice therapy. Immunosuppressant drugs (azathioprine, mycophenolate mofetil, methotrexate) might be chosen as glucocorticoid-sparing medications or to maintain steroid-induced remission (Fig. 1).\nWe report the case of a 70-year-old man and we performed a brief review of loiterature.\nOur patient has a clinical history including bronchial asthma, aortic aneurysm, histologically confirmed retroperitoneal fibrosis causing hydroureteronephrosis, prostatitis, interstitial pulmonary fibrosis, sclerosing chronic pancreatitis (histologically documented), previous chronic cholecystitis (histologically confirmed), previous pericarditis, xeroftalmia, polyclonal hypergammaglobulinemia, eosinophilia. His serum IgG4 levels were significantly increased (5560 mg/dl). In regard to the above mentioned elements a systemic disease characterized by elevated serum levels of IgG4 and IgG4-positive lymphoplasmacytic infiltrative lesions in several tissues, was suspected. Immune-rheumatic diseases and infectious diseases were excluded. Steroid treatment was started achieving a significant swift response.\nUntil now IgG4 related disease has been considered rare in the West and exclusive of Japanese and Korean countries, our case report leads us to reflect on the necessity to take into account this disease in patients with multisystemic involvement."
+  },
+  {
+   "department": "内科",
+   "pmid": "26361161",
+   "title": "What to Expect From the Evolving Field of Geriatric Cardiology.",
+   "journal": "Journal of the American College of Cardiology",
+   "year": "2015",
+   "doi": "10.1016/j.jacc.2015.07.048",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26361161/",
+   "abstract": "The population of older adults is expanding rapidly, and aging predisposes to cardiovascular disease. The principle of patient-centered care must respond to the preponderance of cardiac disease that now occurs in combination with the complexities of old age. Geriatric cardiology melds cardiovascular perspectives with multimorbidity, polypharmacy, frailty, cognitive decline, and other clinical, social, financial, and psychological dimensions of aging. Although some assume that a cardiologist may instinctively cultivate some of these skills over the course of a career, we assert that the volume and complexity of older cardiovascular patients in contemporary practice warrants a more direct approach to achieve suitable training and a more reliable process of care. We present a rationale and vision for geriatric cardiology as a melding of primary cardiovascular and geriatrics skills, thereby infusing cardiology practice with expanded proficiencies in diagnosis, risks, care coordination, communications, end-of-life, and other competences required to best manage older cardiovascular patients."
+  },
+  {
+   "department": "内科",
+   "pmid": "30976930",
+   "title": "A misdiagnosed case of antisynthetase syndrome complicated by myocarditis: when the cardiologist deals with rheumatology.",
+   "journal": "Clinical rheumatology",
+   "year": "2019",
+   "doi": "10.1007/s10067-019-04527-z",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30976930/",
+   "abstract": "We report a case of a 56-year-old woman with an alleged diagnosis of an acute coronary syndrome that was later correctly identified in our Cardiology Unit as antisynthetase syndrome (AS) with inflammatory cardiac involvement. In this case report, we focus on clinical features of this rare autoimmune disease aiming to provide useful tips to achieve correct differential diagnosis according to updated international guidelines and recommendations, especially in cases of concurrent disease-related myocarditis."
+  },
+  {
+   "department": "内科",
+   "pmid": "37802586",
+   "title": "Hypogonadism evaluation: clinical examination is the key.",
+   "journal": "BMJ case reports",
+   "year": "2023",
+   "doi": "10.1136/bcr-2023-257472",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37802586/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "3994465",
+   "title": "Morning report. A successful format.",
+   "journal": "Archives of internal medicine",
+   "year": "1985",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3994465/",
+   "abstract": "Morning report can function as an instructive teaching conference capable of providing a broad coverage of topics in internal medicine. A format at our institution that utilizes brief case presentations by on-call interns, followed by an in-depth discussion of key points among representative subspecialty staff, provided coverage of 85.6% of material present in three major medical references. An internal monitoring system used to guide case selection assures a broader coverage of topics. In addition, preconference preparation to delineate major teaching points, timely follow-up of previously discussed cases, and the generation of a pertinent bibliography are significant features of a format for morning report that provides a conference for exposing house staff to a wide variety of internal medicine problems."
+  },
+  {
+   "department": "内科",
+   "pmid": "18593015",
+   "title": "Aurora kinases and their inhibitors: more than one target and one drug.",
+   "journal": "Advances in experimental medicine and biology",
+   "year": "2008",
+   "doi": "10.1007/978-0-387-73898-7_5",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18593015/",
+   "abstract": "Dependent on the degree of inhibition of different Aurora kinase family members, various events in mitosis are affected, resulting in differential cellular responses. These different cellular responses have to be considered in the clinical development of the small molecule inhibitors with respect to the chosen indications, schedules and appropriate endpoints. Here the properties of the most advanced small molecule Aurora kinase inhibitors are compared and a case report on the development of PHA-739358 - a spectrum selective kinases inhibitor with a dominant phenotype of Aurora kinases inhibition, which is currently being tested in clinical trials - is discussed. One of the selection criteria for this compound was its property of inhibiting more than one cancer relevant target, such as Abl wild-type and the multidrug resistant Abl T315I mutant. This opens another path for clinical development in CML, and clinical trials are underway to evaluate the activity in patients suffering from chronic myelogenous leukemia, who developed resistance to currently approved treatments."
+  },
+  {
+   "department": "内科",
+   "pmid": "33897621",
+   "title": "Case Report: A New Entity: Multiple Differentiated Variant of Papillary Thyroid Carcinoma With Advanced Clinical Behavior.",
+   "journal": "Frontiers in endocrinology",
+   "year": "2021",
+   "doi": "10.3389/fendo.2021.654638",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33897621/",
+   "abstract": "There are many histological morphological types of papillary thyroid carcinoma (PTC), but the most frequently seen types are conventional. A single PTC commonly has a conventional and/or a variant morphological pattern. PTC with multiple (more than two) well-differentiated morphological patterns are extremely rare. We herein report the rare case of a 48-year-old male with initial diaphragmatic, pancreatic, and liver tumors from PTC. Then, the PTC was discovered following resection of these tumors, an ultrasound-guided fine-needle aspiration (US-FNA) cytology of a huge mass in the thyroid's left lobe revealed a PTC. After postoperative recovery, physical and ultrasound examinations identified an irregular large nodule in the thyroid's isthmus and left lobe, several swollen lymph nodes in the left neck, a mass in the left gluteus maximus, and several masses in both the bilateral parotid and salivary regions. The US-FNA's pathological examination confirmed metastatic PTCs in the left gluteus maximus and bilaterally in the parotid and salivary glands. An 18-fluorodeoxyglucose positron-emission tomography and computed tomography scan revealed abnormal uptakes in numerous locations (e.g., thyroid's isthmus and left lobe, bilateral parotid gland, and subcutaneous tissues). The patient underwent palliative therapy-including total thyroidectomy, bilateral central neck dissection, left lateral neck dissection, and excision of the bilateral parotid and salivary glands. A whole-body scan post-therapeutic radioactive iodine ablation revealed exclusive thyroid bed uptake. The patient subsequently underwent thyroid stimulating hormone (TSH) repression therapy and chemotherapy with lenvatinib, and thereafter achieved stable clinical conditions. Further histopathological analysis of the PTC revealed multiple differentiated morphological patterns in the single tumor located in the isthmus and left lobe of the thyroid, and in some metastatic lesions. Different metastatic lesions also presented different morphological patterns of PTC. In conclusions, we identified a new entity of PTC as a multiple differentiated variant of PTC (MDV-PTC) with an aggressive clinical nature."
+  },
+  {
+   "department": "内科",
+   "pmid": "37620762",
+   "title": "The national moroccan registry of ST-elevation myocardial infarction (MR-MI).",
+   "journal": "BMC cardiovascular disorders",
+   "year": "2023",
+   "doi": "10.1186/s12872-023-03458-7",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37620762/",
+   "abstract": "MR-MI is the first national Moroccan ST-elevation myocardial infarction (STEMI) registry. Its objectives are to assess patient management modalities and highlight the clinical and therapeutic characteristics of this pathology in all cardiology centres on a national scale.\nAdult patients presenting with STEMI within 5 days of symptoms onset were enrolled over a period of 18 weeks from April to August 2018. 57 cardiology centres distributed in 22 cities in Morocco participated in the study, including 5 university hospitals, representing 70% of Moroccan centres managing STEMI patients. A case report form was sent to the investigators in both electronic and paper forms. Sociodemographic, clinical, management, revascularization, and follow-up data were collected.\nA total of 809 patients were recruited. The population was mostly male (74.8%) with an average age of 62.6 ± 11.6 years. The most common risk factors were smoking (38.3%) arterial hypertension (30.7%), and diabetes (28%). 30% of patients were admitted within the first 6 h of symptoms onset and early revascularization was performed on 49.6%. Mortality rate was 5.2% in-hospital and 3.2% at the one-month follow-up.\nMR-MI is the first Moroccan STEMI registry on a national scale. Relevant management delays are much longer than other countries, and less than 50% of the patients that present on time benefit from early revascularization. Efforts remain to be done on the optimal diagnosis and treatment of STEMI."
+  },
+  {
+   "department": "内科",
+   "pmid": "34227399",
+   "title": "Desmoid fibromatosis: is the current picture changing?",
+   "journal": "Future oncology (London, England)",
+   "year": "2021",
+   "doi": "10.2217/fon-2021-0003",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34227399/",
+   "abstract": "Desmoid fibromatosis is a locally aggressive tumor with an unpredictable clinical course. Surgery was once the mainstay of treatment, but the treatment protocol has been constantly evolving and currently active surveillance is the front-line approach. There have been significant insights into the molecular biology with the addition of mutational analysis of\nLay abstract Desmoid fibromatosis is an aggressive local tumor with continuously changing treatment paradigms. It requires MRI with biopsy for diagnosis and follow-up. Usually the tumor responds to a ‘wait and watch’ approach in most patients with either stable disease or regression on follow-up; a surgical plan is made only after multidisciplinary discussion, as surgery does not provide additional benefit in most patients. After a period of wait and watch, if there is disease progression, patients can be kept on medical management such as chemotherapy. Currently we have novel drugs for medical management like tyrosine kinase inhibitors, which result in disease stabilization in a majority of patients. In order to reduce the morbidity of treatment, it is essential for the patient to be on continuous follow-up and for clinicians to be updated with the continuously changing management of this disease."
+  },
+  {
+   "department": "内科",
+   "pmid": "34889423",
+   "title": "Immunology 101: fundamental immunology for the practicing hematologist.",
+   "journal": "Hematology. American Society of Hematology. Education Program",
+   "year": "2021",
+   "doi": "10.1182/hematology.2021000260",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34889423/",
+   "abstract": "From an evolutionary perspective, the immune system developed primarily to protect the host from pathogens. In the continuous balance between killing pathogens and protecting host tissues, selective pressures have shaped the discriminatory functions of the immune system. In addition to protection against microbial pathogens, the immune system also plays a critical role in antitumor immunity. Immune dysfunction, either under- or overactivity, is found in a wide range of hematologic disorders. Here we review the fundamental features of the immune system and the key concepts critical to understanding the impact of immune dysfunction on hematologic disorders."
+  },
+  {
+   "department": "内科",
+   "pmid": "31409498",
+   "title": "Genetic Competencies for Effective Pediatric Endocrine Nursing Practice.",
+   "journal": "Journal of pediatric nursing",
+   "year": "2019",
+   "doi": "10.1016/j.pedn.2019.06.006",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31409498/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "36384080",
+   "title": "Low-grade fibromyxoid sarcoma in labial mucosa: Report of a rare case in a pediatric patient.",
+   "journal": "Oral oncology",
+   "year": "2022",
+   "doi": "10.1016/j.oraloncology.2022.106243",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36384080/",
+   "abstract": "Low-grade fibromyxoid sarcoma (LGFMS) is a malignant neoplasm of soft tissue, which occurs mainly in extremities. In this study, we described a rare case of LGFMS arising in the labial mucosa, in a 7-year-old male patient, who presented a painless multilobulated growth with an evolution time of 12 months. An incisional biopsy was performed and microscopic examination revealed a proliferation of bland regular spindle cells in an alternating myxoid and hyalinized stroma. The tumor cells showed a strong cytoplasmic immunoreactivity for MUC4 and low cell proliferation index measured by Ki-67 antibody. The diagnosis of LGFMS was established and the patient was referred for surgical treatment at a pediatric oncology hospital."
+  },
+  {
+   "department": "内科",
+   "pmid": "34707568",
+   "title": "Case Report: Medullary Thyroid Cancer Workup Initiated by Unexpectedly High Procalcitonin Level-Endocrine Training Saves Life in the COVID-19 Unit.",
+   "journal": "Frontiers in endocrinology",
+   "year": "2021",
+   "doi": "10.3389/fendo.2021.727320",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34707568/",
+   "abstract": "Severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) is a novel coronavirus that has caused a worldwide pandemic. The majority of medullary thyroid cancers present as a thyroid nodule. At the time of diagnosis, cervical lymph nodes and distant metastases are frequently detected.\nHere, we present a case of a 46-year-old man with coronavirus disease (COVID) pneumonia, who had persistently high serum procalcitonin levels despite normal C-reactive protein levels. The attending infectologist happened to be a colleague who spent some time, as part of her internal medicine rotation, in the Endocrine Ward and recalled that medullary thyroid cancer might be the cause. This led to the timely workup and treatment of the medullary cancer."
+  },
+  {
+   "department": "内科",
+   "pmid": "23274023",
+   "title": "Clinical pearls in general internal medicine 2012.",
+   "journal": "Mayo Clinic proceedings",
+   "year": "2013",
+   "doi": "10.1016/j.mayocp.2012.11.003",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23274023/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "31597080",
+   "title": "Myopathy for the general internist: Statins and much more.",
+   "journal": "Cleveland Clinic journal of medicine",
+   "year": "2019",
+   "doi": "10.3949/ccjm.86gr.19001",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31597080/",
+   "abstract": "Patients with muscle diseases are often seen initially by general practitioners. This article reviews how to evaluate and manage such patients, including those taking a statin, how to interpret creatine kinase (CK) test results, and how to recognize common as well as potentially dangerous myopathies."
+  },
+  {
+   "department": "内科",
+   "pmid": "35297067",
+   "title": "What is your diagnosis? Hematology and blood smear of a dog.",
+   "journal": "Veterinary clinical pathology",
+   "year": "2023",
+   "doi": "10.1111/vcp.13109",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35297067/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "38331591",
+   "title": "[The spring of artificial intelligence: AI vs. expert for internal medicine cases].",
+   "journal": "La Revue de medecine interne",
+   "year": "2024",
+   "doi": "10.1016/j.revmed.2024.01.012",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38331591/",
+   "abstract": "The \"Printemps de la Médecine Interne\" are training days for Francophone internists. The clinical cases presented during these days are complex. This study aims to evaluate the diagnostic capabilities of non-specialized artificial intelligence (language models) ChatGPT-4 and Bard by confronting them with the puzzles of the \"Printemps de la Médecine Interne\".\nClinical cases from the \"Printemps de la Médecine Interne\" 2021 and 2022 were submitted to two language models: ChatGPT-4 and Bard. In case of a wrong answer, a second attempt was offered. We then compared the responses of human internist experts to those of artificial intelligence.\nOf the 12 clinical cases submitted, human internist experts diagnosed nine, ChatGPT-4 diagnosed three, and Bard diagnosed one. One of the cases solved by ChatGPT-4 was not solved by the internist expert. The artificial intelligence had a response time of a few seconds.\nCurrently, the diagnostic skills of ChatGPT-4 and Bard are inferior to those of human experts in solving complex clinical cases but are very promising. Recently made available to the general public, they already have impressive capabilities, questioning the role of the diagnostic physician. It would be advisable to adapt the rules or subjects of future \"Printemps de la Médecine Interne\" so that they are not solved by a public language model."
+  },
+  {
+   "department": "内科",
+   "pmid": "37604648",
+   "title": "Field cancerisation and radiotherapy: a case of treatment complications.",
+   "journal": "The Medical journal of Australia",
+   "year": "2023",
+   "doi": "10.5694/mja2.52086",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37604648/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "37230940",
+   "title": "Field cancerisation and radiotherapy: a case of treatment complications.",
+   "journal": "The Medical journal of Australia",
+   "year": "2023",
+   "doi": "10.5694/mja2.51980",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37230940/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "28754053",
+   "title": "Complex decision making in patients with dementia in an internal medicine department.",
+   "journal": "Annals of palliative medicine",
+   "year": "2017",
+   "doi": "10.21037/apm.2017.06.21",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28754053/",
+   "abstract": "With the increase of polymorbidity, extending life expectancy and improving treatment options for chronic diseases, the care for dementia is moving into other areas of medicine. The length and quality of life with advanced dementia is directly dependent on the quality of medical and nursing care, early detection and treatment of complications, nutritional support and palliative care plan. Significant is also the support for family carers. The key coordinators of care for patients with dementia are general practitioners (GPs), geriatricians, psychiatrists, and an increasingly important role play internists. Case reports of patients admitted to an internal medicine department. Description of clinical experiences with caring on patients with dementia. In the internal departments of regional hospitals, there is a room for adjustment of the care plan, for comprehensive assessment of the patient and for making crucial decisions regarding nutrition, treatment of chronic diseases, consideration of previously expressed wishes in the context of the patient condition, and potential prognostic indicators. This assessment must result in a comprehensive documentation and communication with patients, and in the case of advanced dementia with their family members. The general internal medicine is very often the first place where the patient has a chance to hear about indication for palliative care. Without the availability of a multidisciplinary assessment, good communication and documentation, it is unrealistic to expect that the hospital would provide comprehensive care for patients with dementia."
+  },
+  {
+   "department": "内科",
+   "pmid": "20960533",
+   "title": "Why did you order that echocardiogram?",
+   "journal": "Clinical cardiology",
+   "year": "2010",
+   "doi": "10.1002/clc.20835",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20960533/",
+   "abstract": "The author has no funding, financial relationships, or conflicts of interest to disclose."
+  },
+  {
+   "department": "内科",
+   "pmid": "35939770",
+   "title": "An Approach to Solving the Complex Clinicogenomic Data Landscape in Precision Oncology: Learnings From the Design of WAYFIND-R, a Global Precision Oncology Registry.",
+   "journal": "JCO precision oncology",
+   "year": "2022",
+   "doi": "10.1200/PO.22.00019",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35939770/",
+   "abstract": "Precision oncology, where patients are given therapies based on their genomic profile and disease trajectory, is rapidly evolving to become a pivotal part of cancer management, supported by regulatory approvals of biomarker-matched targeted therapies and cancer immunotherapies. However, next-generation sequencing (NGS)-based technologies have revealed an increasing number of molecular-based cancer subtypes with rare patient populations, leading to difficulties in executing/recruiting for traditional clinical trials. Therefore, approval of novel therapeutics based on traditional interventional studies may be difficult and time consuming, with delayed access to innovative therapies. Real-world data (RWD) that describe the patient journey in routine clinical practice can help elucidate the clinical utility of NGS-based genomic profiling, multidisciplinary case discussions, and targeted therapies. We describe key learnings from the setup of WAYFIND-R (NCT04529122), a first-of-its-kind global cancer registry collecting RWD from patients with solid tumors who have undergone NGS-based genomic profiling. The meaning of 'generalizability' and 'high quality' for RWD across different geographic areas was revisited, together with patient recruitment processes, and data sharing and privacy. Inspired by these learnings, WAYFIND-R's design will help physicians discuss patient treatment plans with their colleagues, improve understanding of the impact of treatment decisions/cancer care processes on patient outcomes, and provide a platform to support the design and conduct of further clinical/epidemiologic research. WAYFIND-R demonstrates user-friendly, electronic case report forms, standardized collection of molecular tumor board-based decisions, and a dashboard providing investigators with access to local cohort-level data and the ability to interact with colleagues or search the entire registry to find rare populations. Overall, WAYFIND-R will inform on best practice for NGS-based treatment decisions by clinicians, foster global collaborations between cancer centers and enable robust conclusions regarding outcome data to be drawn, improve understanding of disparities in patients' access to advanced diagnostics and therapies, and ultimately drive advances in precision oncology."
+  },
+  {
+   "department": "内科",
+   "pmid": "21210354",
+   "title": "[Internal medicine clinical consultation].",
+   "journal": "Praxis",
+   "year": "2011",
+   "doi": "10.1024/1661-8157/a000408",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21210354/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "27776552",
+   "title": "Scleroderma and dentistry: Two case reports.",
+   "journal": "Journal of medical case reports",
+   "year": "2016",
+   "doi": "10.1186/s13256-016-1086-1",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27776552/",
+   "abstract": "Scleroderma is a chronic connective tissue disorder with unknown etiology. It is characterized by excessive deposition of extracellular matrix in the connective tissues causing vascular disturbances which can result in tissue hypoxia. These changes are manifested as atrophy of the skin and/or mucosa, subcutaneous tissue, muscles, and internal organs. Such changes can be classified into two types, namely, morphea (localized) and diffuse (systemic). Morphea can manifest itself as hemifacial atrophy (Parry-Romberg syndrome) although this remains debatable. Hence, we present a case of morphea, associated with Parry-Romberg syndrome, and a second case with the classical signs of progressive systemic sclerosis.\nCase one: A 20-year-old man of Dravidian origin presented to our out-patient department with a complaint of facial asymmetry, difficulty in speech, and loss of taste sensation over the last 2 years. There was no history of facial trauma. After physical and radiological investigations, we found gross asymmetry of the left side of his face, a scar on his chin, tongue atrophy, relative microdontia, thinning of the ramus/body of his mandible, and sclerotic lesions on his trunk. Serological investigations were positive for antinuclear antibody for double-stranded deoxyribonucleic acid and mitochondria. A biopsy was suggestive of morphea. Hence, our final diagnosis was mixed morphea with Parry-Romberg syndrome. Case two: A 53-year-old woman ﻿of Dravidian origin presented to our out-patient department with a complaint of gradually decreasing mouth opening over the past 7 years. Her medical history was noncontributory. On clinical examination, we found her perioral, neck, and hand skin to be sclerotic. Also, her fingers exhibited bilateral telangiectasia. An oral examination revealed completely edentulous arches as well as xerostomia and candidiasis. Her serological reports were positive for antinuclear antibodies against centromere B, Scl-70, and Ro-52. A hand and wrist radiograph revealed acro-osteolysis of the middle finger on her right hand. Hence, our final diagnosis was progressive systemic sclerosis.\nThrough this article, we have tried to emphasize the importance of a general examination when diagnosing rare systemic diseases such as scleroderma and the role of the general dentist when caring for such patients, even though they can be quite rare in general practice."
+  },
+  {
+   "department": "内科",
+   "pmid": "11606147",
+   "title": "Drug-related deaths in a department of internal medicine.",
+   "journal": "Archives of internal medicine",
+   "year": "2001",
+   "doi": "10.1001/archinte.161.19.2317",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11606147/",
+   "abstract": "Drug therapy is associated with adverse effects, and fatal adverse drug events (ADEs) have become major hospital problems. Our study assesses the incidence of fatal ADEs in a major medical department and identifies possible patient characteristics signifying fatal ADE risk.\nDuring a 2-year period, a multidisciplinary study group examined all 732 patients who died--5.2% of the 13992 patients admitted to the Department of Internal Medicine, Central Hospital of Akershus, Nordbyhagen, Norway. Decisions about the presence or absence of fatal ADEs were based on aggregated clinical records, autopsy results, and findings from premortem and postmortem drug analyses.\nIn 18.2% of the patients (133/732) (95% confidence interval, 15.4%-21.0%), deaths were classified as being directly (64 [48.1%] of 133) or indirectly (69 [51.9%] of 133) associated with 1 or more drugs (this equals 9.5 deaths per 1000 hospitalized patients). Those with fatal ADEs (cases) were older, had more diseases, and used more drugs than those without fatal ADEs (noncases). In 75 of the 133 patients with fatal ADEs, autopsy findings and/or drug analysis data were decisive for recognizing the ADEs; in 62 of the remaining 595 patients, similar data proved necessary to exclude the suspicion of a fatal ADE. Major culprit drugs were cardiovascular, antithrombotic, and sympathomimetic agents.\nFatal ADEs represent a major hospital problem, especially in elderly patients with multiple diseases. A higher number of drugs administered was associated with a higher frequency of fatal ADEs, but whether a high number of drugs is an independent risk factor for fatal ADEs is unsettled. Autopsy results and the findings of premortem and postmortem drug analyses were important for recognizing and excluding suspected fatal ADEs."
+  },
+  {
+   "department": "内科",
+   "pmid": "23763222",
+   "title": "Neuroophthalmology meets oncology: a case report.",
+   "journal": "Boletin de la Asociacion Medica de Puerto Rico",
+   "year": "2012",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23763222/",
+   "abstract": "Breast cancer is the second most common type of cancer worldwide and metastasis occurs in approximately 10% of the patents. A 69-year-old woman with past medical history of breast cancer came to her outpatient ophthalmologic clinic for follow-up evaluation of glaucoma. Upon evaluation the patient complained of ataxia, tinnitus, and headaches. Her visual field analysis showed a left homonymous hemianopsia. An MRI was ordered showing an intra-parenchymal lesion in the right cerebellar hemisphere. The visual signs were not compatible with the lesion on the cerebellum, but the MRI evidenced no other lesions in the optic tract. Our case report reminds physicians the importance and sensitivity of radiologic studies, the evaluation of neurologic symptoms in patients with history of breast cancer making co-management of these patients of utmost importance."
+  },
+  {
+   "department": "内科",
+   "pmid": "32008478",
+   "title": "Palliative care: not only for treating symptoms: a case report.",
+   "journal": "Tumori",
+   "year": "2020",
+   "doi": "10.1177/0300891620901771",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32008478/",
+   "abstract": "Palliative care (PC) aims to treat symptoms independently of the disease. In many medical disciplines, including oncology, there is an emphasis on personalizing treatment, identifying the most effective therapeutic option by studying the genetic heritage of the patient and the molecular characteristics of the disease. PC, on the other hand, encompasses the overall (physical and spiritual) well-being of the patient and his or her caregivers. The increasing use of early PC and its integration with oncology could represent a fruitful collaboration among specialists.\nWe present the case of a 79-year-old woman with advanced breast cancer attending our institute who was referred to our PC Unit because of continuous ear pain, paresthesia around the mouth, strabismus, and facial dysesthesia. The patient was in good clinical condition (Eastern Cooperative Oncology Group 1) and was undergoing chemotherapy at the time. For these reasons, the PC physician carefully assessed the pain characteristics and differential diagnosis and discussed them with the oncologist, radiologist, and neurologist. Joint consultation led to a specific study of Meckel cave by MRI, revealing an extrameningeal gasserian ganglion metastasis, a very rare localization of breast cancer.\nWe present a case that underlines the importance of specialized PC assessment not limited to the control of symptoms. The search for the etiopathogenesis of a patient's symptoms and the evaluation of overall clinical conditions may be necessary to plan appropriate diagnostic evaluations, target palliative therapies, and achieve effective symptom control."
+  },
+  {
+   "department": "内科",
+   "pmid": "13579706",
+   "title": "[A gastroenterological case report].",
+   "journal": "Revue francaise de psychanalyse",
+   "year": "1958",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/13579706/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "37657046",
+   "title": "Orbital adenoid cystic carcinoma treated by radiotherapy combined with anlotinib in a 13-year-old girl: A case report.",
+   "journal": "Medicine",
+   "year": "2023",
+   "doi": "10.1097/MD.0000000000034544",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37657046/",
+   "abstract": "Adenoid cystic carcinoma (ACC) of orbit is a very rare epithelial tumor, often originating from the lacrimal glands. At the same time, treatment options are currently limited, such as radiation, chemotherapy. We report a case of a patient treated with antirotinib combined with radiotherapy.\nA 13-year-old girl was initially admitted with \"left eye swelling for over half a year, 12 days after surgery for left orbital adenoid cystic carcinoma\". Initial swelling of the lateral upper eyelid of the left eye, with gradual enlargement and occasional pain.\nLeft orbital adenoid cystic carcinoma.\nAfter diagnosis of orbital ACC, she underwent resection of the left orbital mass, and received 33 times of adjuvant radiotherapy, but brain metastases appeared later. She refused further treatment, and received 25 times of radiotherapy and anlotinib therapy after the disease progressed again.\nNow the patient has been followed up for 8 months, but no progress was found.\nBased on this, we hypothesized that radiation therapy in combination with anlotinib is effective for ACC or ACC metastases."
+  },
+  {
+   "department": "内科",
+   "pmid": "8190157",
+   "title": "Performance of four computer-based diagnostic systems.",
+   "journal": "The New England journal of medicine",
+   "year": "1994",
+   "doi": "10.1056/NEJM199406233302506",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8190157/",
+   "abstract": "Computer-based diagnostic systems are available commercially, but there has been limited evaluation of their performance. We assessed the diagnostic capabilities of four internal medicine diagnostic systems: Dxplain, Iliad, Meditel, and QMR.\nTen expert clinicians created a set of 105 diagnostically challenging clinical case summaries involving actual patients. Clinical data were entered into each program with the vocabulary provided by the program's developer. Each of the systems produced a ranked list of possible diagnoses for each patient, as did the group of experts. We calculated scores on several performance measures for each computer program.\nNo single computer program scored better than the others on all performance measures. Among all cases and all programs, the proportion of correct diagnoses ranged from 0.52 to 0.71, and the mean proportion of relevant diagnoses ranged from 0.19 to 0.37. On average, less than half the diagnoses on the experts' original list of reasonable diagnoses were suggested by any of the programs. However, each program suggested an average of approximately two additional diagnoses per case that the experts found relevant but had not originally considered.\nThe results provide a profile of the strengths and limitations of these computer programs. The programs should be used by physicians who can identify and use the relevant information and ignore the irrelevant information that can be produced."
+  },
+  {
+   "department": "内科",
+   "pmid": "37024155",
+   "title": "An unusual case of hematuria following kidney transplantation.",
+   "journal": "American journal of transplantation : official journal of the American Society of Transplantation and the American Society of Transplant Surgeons",
+   "year": "2023",
+   "doi": "10.1016/j.ajt.2023.01.014",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37024155/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "33422366",
+   "title": "Status of Metastatic Bladder Cancer Treatment Illustrated by a Case.",
+   "journal": "Seminars in oncology nursing",
+   "year": "2021",
+   "doi": "10.1016/j.soncn.2020.151113",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33422366/",
+   "abstract": "This study aims to provide an overview of current treatment guidelines within the context of metastatic bladder cancer illustrated by a case report.\nInternational guidelines from The American Society of Clinical Oncology (ASCO), The European Society of Medical Oncology (ESMO), and scientific references supporting these clinical guidelines. To illustrate the implementation of current evidence-based guidelines a patient case report was presented.\nHistorically, there have been limited treatment options available for metastatic bladder cancer for three decades. However, with the introduction of immunotherapy and emergent targeted therapies for metastatic bladder cancer increasing survival rates are expected.\nTo achieve improved treatment outcome in people affected by metastatic bladder cancer it is important that both doctors and nurses are aware of contemporary evidence-based treatment options in keeping with ESMO and ASCO international clinical guidelines. Nurses play an important role in educating patients about the potential side effects of therapy and in offering timely, tailored, and supported self-management."
+  },
+  {
+   "department": "内科",
+   "pmid": "17180649",
+   "title": "[Infective endocarditis. A case report as mirror of the guidelines].",
+   "journal": "Herz",
+   "year": "2006",
+   "doi": "10.1007/s00059-006-2936-1",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17180649/",
+   "abstract": "Even today, in times of modern antibiotic therapy, infective endocarditis is a disease with a high mortality which is difficult to diagnose and to treat. The changing clinical face of this disease in the last decades results from a changing predisposition of the patients, an increasing age, and is accompanied with shift from streptococci toward staphylococci as the main causative microorganisms. Evidence from randomized trials is limited due to a low incidence of the disease. Thus, application of the guidelines for diagnosis and treatment on a patient has always to respect the individual history, and the individual clinical course. The authors describe and comment the case of a patient with endocarditis of the native aortic valve due to S. epidermidis from diagnosis to discharge from the hospital following the current German guidelines for diagnosis and treatment of infective endocarditis."
+  },
+  {
+   "department": "内科",
+   "pmid": "37699743",
+   "title": "Dermoscopic image of radiotherapy associated benign lymphangiomatous papules.",
+   "journal": "BMJ case reports",
+   "year": "2023",
+   "doi": "10.1136/bcr-2023-257598",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37699743/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "33012611",
+   "title": "Supporting Those With the Most to Gain: The Potential of Exercise in oncology.",
+   "journal": "Seminars in oncology nursing",
+   "year": "2020",
+   "doi": "10.1016/j.soncn.2020.151074",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33012611/",
+   "abstract": "The purpose of this commentary is to summarize the evidence of the feasibility and benefits of exercise for cancer patients with complex health profiles. Case studies are used to describe the therapeutic approach taken by exercise professionals. The information presented will assist the cancer care team in understanding their role in supporting these patients to move more.\nProfessional organizations, peer-reviewed manuscripts, and expert clinical opinion.\nIndividually-tailored exercise is safe and feasible in the presence of complex health profiles, and all patients can benefit through exercise, regardless of individual circumstance or disease burden. However, to ensure patients benefit through physical activity, including exercise, a multidisciplinary approach, whereby all members of the health care team promote and encourage physical activity is needed.\nThere is a clear need for collaboration between the oncology team and exercise professionals, particularly when dealing with patients with complex health profiles. These patients are more likely to engage in exercise when they are advised and supported by their oncology team to do so. As such, promotion of physical activity and, when relevant, referral to an exercise professional is the responsibility of all members of the cancer team."
+  },
+  {
+   "department": "内科",
+   "pmid": "37848717",
+   "title": "Neurologic manifestations of Behçet disease: rheumatology experience.",
+   "journal": "Zeitschrift fur Rheumatologie",
+   "year": "2024",
+   "doi": "10.1007/s00393-023-01436-0",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37848717/",
+   "abstract": "Neurologic involvement in Behçet disease (BD) is a rare manifestation. Herein, we aimed to evaluate the clinical features and treatment choices of neuro-Behçet (NB) patients.\nThere were records of 800 BD patients between 1998 and 2021. Fifty-five of the BD patients had NB and the files of these patients were retrospectively evaluated. Patients were grouped into three subgroups: 22 (40%) had non-parenchymal, 25 (45%) had parenchymal, and 8 (15%) had both parenchymal and non-parenchymal (mixed) involvement.\nOf the 55 patients, 32 were male. Twenty-six of the NB patients were diagnosed with BD simultaneously. The most common complaint was headache (n = 24, 44%). The most affected site was periventricular white matter (n = 21, 38%). All patients had received corticosteroids. Azathioprine (AZA; n = 39, 71%) was the most common immunosuppressive agent after corticosteroids, followed by cyclophosphamide (n = 16, 29%).\nNeurologic involvement is a rare complication of BD but is related to increased mortality and morbidity. Neurologic manifestations may be the initial symptom of BD, thus leading to diagnosis. Both neurology and rheumatology specialists should be aware of this rare condition.\nZIEL: Eine neurologische Beteiligung im Rahmen eines M. Behçet stellt eine seltene Manifestation dar. In der vorliegenden Arbeit war es das Ziel, die klinischen Merkmale und die zur Wahl stehenden Therapien bei Patienten mit Neuro-Behçet (NB) zu erörtern.\nZwischen 1998 und 2021wurden 800 Fälle mit M. Behçet dokumentiert. Von den Patienten mit M. Behçet wiesen 55 einen NB auf, und die Krankenakten dieser Patienten wurden retrospektiv untersucht. Dabei wurden die Patienten in 3 Subgruppen unterteilt: Bei 22 (40%) bestand eine nichtparenchymale, bei 25 (45%) eine parenchymale und bei 8 (15%) sowohl eine parenchymale als auch eine nichtparenchymale (gemischte) Beteiligung.\nVon den 55 Patienten waren 32 männlich. Bei 26 der NB-Patienten wurde gleichzeitig die Diagnose M. Behçet gestellt. Das häufigste Symptom waren Kopfschmerzen (n = 24; 44%). Die meistbetroffene Lokalisation stellte die periventrikuläre weiße Substanz dar (n = 21; 38%). Alle Patienten hatten Kortikosteroide erhalten. Azathioprin (AZA; n = 39; 71%) war das am häufigsten verabreichte immunsupprimierende Präparat nach den Kortikosteroiden, dann folgte Cyclophosphamid (n = 16; 29%).\nEine neurologische Beteiligung ist eine seltene Komplikation des M. Behçet, allerdings geht sie mit erhöhter Mortalität und Morbidität einher. Sowohl Neurologen als auch Rheumatologen sollten sich dieser seltenen Symptomkonstellation bewusst sein."
+  },
+  {
+   "department": "内科",
+   "pmid": "37643822",
+   "title": "Intracranial ependymoma in an adult patient with multiple primary malignancies.",
+   "journal": "BMJ case reports",
+   "year": "2023",
+   "doi": "10.1136/bcr-2023-254584",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37643822/",
+   "abstract": "The incidence of multiple primary malignancies (MPM) is increasing, and therefore, it has become highly important for clinicians to consider the concept of MPM when treating oncology patients. In this case report, we follow the clinical course of a patient diagnosed with a new intracranial lesion, an ependymoma, on a background of MPM. We explore the barriers implicating the delay in her diagnosis, dissect the challenges in managing her disease and emphasise the importance of social determinants in optimising her care."
+  },
+  {
+   "department": "内科",
+   "pmid": "8842935",
+   "title": "The role of prognosis in clinical decision making.",
+   "journal": "Journal of general internal medicine",
+   "year": "1996",
+   "doi": "10.1007/BF02600190",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8842935/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "38955061",
+   "title": "Student personality type and preferred rounding methods in an internal medicine advanced pharmacy practice experience.",
+   "journal": "Currents in pharmacy teaching & learning",
+   "year": "2024",
+   "doi": "10.1016/j.cptl.2024.102138",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38955061/",
+   "abstract": "Pharmacy students completing Internal Medicine rotations may be exposed to different stylistic approaches from providers on routine activities like patient rounds. This may be beneficial as students can learn in different ways. Conversely, extensive exposure to approaches that do not suit them may hinder student learning or lead students to feel they don't belong in a clinical setting.\nThis study sought to assess how students of different personality types perceived benefits to their learning based on the rounding styles of two providers. One provider (Dr. Bedside) used a team-based, bedside rounding method with direct patient interaction, while the other (Dr. Table) used a tableside team-based discussion for each patient. In the final week of a 5-week Internal Medicine APPE rotation, a cohort of ten students completed a 12-item survey that collected details on two personality assessments and assessed perspectives of the two rounding styles.\nTen students completed the personality assessments and survey. Students represented a diverse set of StrengthsFinder strengths and DOPE personality types, with the highest concentration (60%) of students receiving the Executing strength. All students agreed or strongly agreed that the exposure to two different rounding styles was valuable to their learning, with 80% of students preferring Dr. Bedside's approach.\nOverall, no trends were identified between preference of rounding style and results from personality assessments, which indicates the current approach of exposing students to two rounding styles does not negatively impact certain learners based on DOPE and StrengthsFinders personality types."
+  },
+  {
+   "department": "内科",
+   "pmid": "35353686",
+   "title": "Analysis of the evolution of the publication of case reports in endocrinology journals.",
+   "journal": "Endocrinologia, diabetes y nutricion",
+   "year": "2022",
+   "doi": "10.1016/j.endien.2022.02.007",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35353686/",
+   "abstract": "A case report is a scientific article describing one or more patients with unusual clinical presentations. In recent years, the number of case reports in publications has decreased. In this study, we analyze the publication of case reports in journals of Endocrinology during the years 2010, 2015 and 2019.\nThe Pubmed web was browsed for clinical journals of Endocrinology, those published in English and/or Spanish being selected, and the relevant variables analyzed.\nOf 84 analyzed journals, 51 accepted cases for publication, 29 did not, and 4 did so only in exceptional cases. In 2010, 11,754 articles were published, of which 709 were clinical cases (6.9% of the total); in 2015, a total of 14,594 articles of which 655 were clinical cases (5.8% of the total); and in 2019 a total of 14,110 articles, of which 472 were clinical cases (4.6% of the total). In journals demanding payment for the publishing of clinical cases, case reports represented 9% of all articles, and in free journals, 3% (P < 0.05).\nThere has been a decline in publication of case reports in journals of Endocrinology in recent years, both in absolute and relative terms. Even though the cases described by these reports are, by definition, exceptional, the decline of their publication implies a significant loss of scientific information and clinical knowledge regarding certain pathologies."
+  },
+  {
+   "department": "内科",
+   "pmid": "34076246",
+   "title": "Interactions between cardiology and oncology drugs in precision cardio-oncology.",
+   "journal": "Clinical science (London, England : 1979)",
+   "year": "2021",
+   "doi": "10.1042/CS20200309",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34076246/",
+   "abstract": "Recent advances in treatment have transformed the management of cancer. Despite these advances, cardiovascular disease remains a leading cause of death in cancer survivors. Cardio-oncology has recently evolved as a subspecialty to prevent, diagnose, and manage cardiovascular side effects of antineoplastic therapy. An emphasis on optimal management of comorbidities and close attention to drug interactions are important in cardio-oncologic care. With interdisciplinary collaboration among oncologists, cardiologists, and pharmacists, there is potential to prevent and reduce drug-related toxicities of treatments. The cytochrome P450 (CYP450) family of enzymes and the P-glycoprotein (P-g) transporter play a crucial role in drug metabolism and drug resistance. Here we discuss the role of CYP450 and P-g in drug interactions in the field of cardio-oncology, provide an overview of the cardiotoxicity of a spectrum of cancer agents, highlight the role of precision medicine, and encourage a multidisciplinary treatment approach for patients with cancer."
+  },
+  {
+   "department": "内科",
+   "pmid": "20813090",
+   "title": "[The importance of case reports in current pediatric endocrinology and metabolism literature--the analysis of publications indexed in Medline in the years 2004-2009].",
+   "journal": "Pediatric endocrinology, diabetes, and metabolism",
+   "year": "2010",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20813090/",
+   "abstract": "Case reports have been used as an educational tool in medicine for a long time, as they are usually the first kind of publications prepared by new authors. In compliance with the rules of the EBM, the evidence-based medicine, a clinical case report (which describes and analyses the manner of diagnosis and treatment) appears at the bottom of the hierarchy of scientific evidences. As a result, medical periodicals limit the publishing of case reports. The aim of the study is to assess how important case reports are in the modern pediatric literature, with special interests in endocrine and metabolic disorders.\nSearching Medline over the last 5 years (October 2004-October 2009) using key words \"case report\" was performed. The limitations: \"human\", age \"all children: 0-18 years\" and the kind of publication: \"case report\" were used. For the huge number of publications found, the number and language of the publication was analyzed, and the first 100 free full-text publications in field of endocrine and metabolic disorders in English (from 2007-2009) were rated depending on the kind of case and aim of the publication.\nA total of 55379 publications classified by Pubmed as case reports were found, including 48805 English, 1592 Spanish, 1538 French, 794 German, 370 Polish, 356 Chinese, 265 Russian and 135 Italian. The published case reports were more often informative than educational in character. The content of the published case reports deals more often with the notification of a new mutation, less frequently presentation of an interesting, rare, unusual case or a new illness or the description of a novel therapy. Less often the published case reports appear to be of educational character or those concerning diagnostic problems or treatment failure.\nCase reports remain an important contribution to the pediatric literature, mainly fulfilling an essential role in providing information about new medical problems. Medical literature published in Polish is relatively rich in clinical case reports. Publishing a case report in field of endocrinology and metabolism in Pubmed indexed journal is considered reasonable in situations where a new medical condition is being presented (most often a new mutation), a novel therapy has been discovered, the case is interesting or where the publishing of such reports fulfils didactic/educational needs."
+  },
+  {
+   "department": "内科",
+   "pmid": "37900066",
+   "title": "Reliability of cardiac computed tomography examination in cardiac pathology - a case series and literature review.",
+   "journal": "Journal of medicine and life",
+   "year": "2023",
+   "doi": "10.25122/jml-2023-0268",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37900066/",
+   "abstract": "Due to the technological progress in the last decade, the medical practice of cardiology relies more and more on the information provided by cardiac computed tomography. Current guidelines propose coronary computed angiography as a first-line anatomic investigation in patients with low and intermediate probability of coronary atherosclerosis. At the same time, anatomical information is obtained about the rest of the cardiac structures and about cardiac function. The present work aimed to present the contribution of cardiac computed tomography in the morphological and functional characterization of patients with complex cardiac pathology. Three cases are presented in which the information provided by cardiac computed tomography contributed significantly to the diagnosis. The cases were cardiac pathologies such as ventricular apical aneurysm, aortic prosthetic thrombosis, and a cardiac malformation with transposition of great arteries. In addition to highlighting the role of cardiac computed tomography in diagnosing cardiac pathology, a brief review of cardiac computed tomography indications, inclusion criteria, patient safety, basic techniques, and the main protocols and types of post-processing used in practice is provided. This article provides an overview of the applications of cardiac computed tomography, highlighting its role within clinical practice, particularly in the characterization of complex cardiac pathologies."
+  },
+  {
+   "department": "内科",
+   "pmid": "22580788",
+   "title": "Nephrology quiz and questionnaire: electrolytes.",
+   "journal": "Clinical journal of the American Society of Nephrology : CJASN",
+   "year": "2012",
+   "doi": "10.2215/CJN.01720212",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22580788/",
+   "abstract": "Presentation of the Nephrology Quiz and Questionnaire has become an annual tradition at the meetings of the American Society of Nephrology. It is a very popular session judged by consistently large attendance. Members of the audience test their knowledge and judgment on a series of case-oriented questions prepared and discussed by experts. They can also compare their answers in real time using audience response devices with the answers of program directors of nephrology training programs in the United States through an Internet-based questionnaire. Topics presented here include fluid and electrolyte disorders, transplantation, and ESRD and dialysis. Cases representing each of these categories along with single best-answer questions were prepared by a panel of experts (the authors). The correct and incorrect answers then were briefly discussed after the audience responses and the results of the questionnaire were displayed. This article tries to recapitulate the session and reproduce its educational value for a larger audience-the readers of the Clinical Journal of the American Society of Nephrology. Have fun."
+  },
+  {
+   "department": "内科",
+   "pmid": "35337779",
+   "title": "Second victims and quality of support resources among cardiology professionals.",
+   "journal": "Revista espanola de cardiologia (English ed.)",
+   "year": "2022",
+   "doi": "10.1016/j.rec.2022.01.012",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35337779/",
+   "abstract": ""
+  },
+  {
+   "department": "内科",
+   "pmid": "7512344",
+   "title": "[Importance of the protein profile in internal medicine].",
+   "journal": "Allergie et immunologie",
+   "year": "1993",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7512344/",
+   "abstract": "Until recent years, main biologic markers of inflammation used in current practice were limited to erythrocyte sedimentation rate, fibrinogen, and serum protein electrophoresis. A better understanding of inflammatory mechanisms and improvement of laboratories technologies helped in better understanding of the role and potential usefulness of inflammatory reaction proteins. Arrival of proteic profile and, more recently, the development of automation, still improved analysis of variations of different inflammatory reaction proteins. These proteins are then analyzed as an element of a \"functional biological system\", with known and so expected kinetics and ranges. The analyze of proteic profile combines the analyze of proteins variations, with elected but not exclusive associations, as Immunoglobulins and Complement, Orosomucoid and Haptoglobin, or Albumin and Transferrin. In Internal Medicine, proteic profile may help in solving daily problems. These problems may be so schematized: when the fundamental pathology is not yet known in an unraveling check-up, facing clinical symptoms, with a normal or fewly disrupted usual biologic panel, proteic profile may help to choose investigations necessary for the diagnosis; in the follow-up of patients treated for known inflammatory pathology facing new symptoms, part has to be done between complication of the disease and/or of the treatment, new pathology associated or unefficiency of the treatment. We report herein part of our experience of proteic profile in an Internal Medicine department, from some particularly demonstrative case reports: congenital or acquired abnormality of iron metabolism, with normal usual iron panel (iron deficiency, hemochromatosis); severe evolutive inflammatory or infectious disease with normal erythrocyte sedimentation rate (temporal arteritis, infectious endocarditis)."
+  },
+  {
+   "department": "内科",
+   "pmid": "23882990",
+   "title": "The cardiology and endocrinology connection between amiodarone and thyrotoxicosis: case report and review of the literature.",
+   "journal": "Boletin de la Asociacion Medica de Puerto Rico",
+   "year": "2013",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23882990/",
+   "abstract": "Amiodarone is used in a large number of cardiac conditions. Amiodarone-induced thyroid dysfunction has been reported to affect up to 20% of users. Amiodarone can lead to both amiodarone-induced hypothyroidism (AIH) and less commonly amiodarone-induced thyrotoxicosis (AIT). There are two main forms of AIT. Type 1 AIT, a form of io-dine-induced hyperthyroidism, and type 2, a drug-induced destructive thyroiditis. Type 1 AIT develops on individuals with underlying thyroid disease. Treatment of Type 1 AIT includes the use of antithyroid drugs and discontinuation of amiodarone. Type 2 AIT is commonly self-limiting in nature. In this article wedescribe a patient with Amiodarone-induced thyrotoxicosis discussing its clinical features and medical therapeutic approach."
+  },
+  {
+   "department": "内科",
+   "pmid": "34752848",
+   "title": "Nephron-Sparing Approach For Familial Bilateral Synchronous Wilms Tumors.",
+   "journal": "Urology",
+   "year": "2022",
+   "doi": "10.1016/j.urology.2021.10.022",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34752848/",
+   "abstract": "Wilms tumors are the most common renal malignancy of childhood, often presenting as asymptomatic abdominal masses. These tumors can occur either in a unilateral or bilateral fashion, with bilateral tumors more commonly associated with various genetic syndromes and familial inheritance with some known loci. Bilateral tumors present challenges with regards to balancing oncologic control with renal function. Here, we present an unusual case of a young female patient diagnosed with bilateral Wilms tumors on the background of a strong family history and unknown genetic loci."
+  },
+  {
+   "department": "内科",
+   "pmid": "24871126",
+   "title": "[Splenic disorders in internal medicines].",
+   "journal": "Anales del sistema sanitario de Navarra",
+   "year": "2014",
+   "doi": "10.4321/s1137-66272014000100022",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24871126/",
+   "abstract": "The spleen is the largest lymphopoietic organ, containing 25% of total lymphoid mass. It participates in cellular and humoral immunity and intervenes in the renovation of red cells and the elimination of bacteria. Splenic functions are reduced when the spleen is absent, which entails, amongst other complications, greater susceptibility to suffering from sepsis due to encapsulated organisms. We present 6 clinical cases admitted to the Internal Medicine serve with splenic pathology and we make a review of the approach to be used. The spectrum of splenic lesions in internal medicine is very wide. On occasions, a splenic pathology can be suspected due to clinical history, physical exploration or because of cytopenias in the analyses. Different complementary tests are available for completing study of these lesions. A splenectomy can be carried out in case of diagnostic doubt, with the most frequent diagnoses being hepatic cirrhosis and lymphoma/leukaemia."
+  },
+  {
+   "department": "内科",
+   "pmid": "28808611",
+   "title": "Red Snappers and Red Herrings: Pelvic Tuberculosis Causing Elevated CA 125 and Mimicking Advanced Ovarian Cancer. A Case Report and Literature Review.",
+   "journal": "Hawai'i journal of medicine & public health : a journal of Asia Pacific Medicine & Public Health",
+   "year": "2017",
+   "doi": "",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28808611/",
+   "abstract": "Female genital tuberculosis (FGTB) is a form of extra-pulmonary tuberculosis that has been primarily described in developing countries, where it is an important cause of infertility, ectopic pregnancy, and miscarriage. FGTB is rare in the United States and because its clinical presentation is non-specific and often insidious, FGTB may be misdiagnosed as a gynecologic malignancy or endometriosis. The tendency of tuberculosis to dramatically increase serum CA 125 levels contributes to the potential for FGTB to be mistaken for ovarian cancer in particular. We describe the case of a young woman who presented with what was initially thought to be advanced ovarian cancer but who had tuberculosis of the peritoneum, uterus, and ovaries discovered at laparotomy. This case emphasizes the importance of considering tuberculosis in the differential of any patient presenting with an abdomino-pelvic mass and an elevated CA 125 level."
+  },
+  {
+   "department": "内科",
+   "pmid": "28299885",
+   "title": "Comments on \"Factitious disorder (Munchausen's syndrome) in oncology: Case report and literature review\" by Baig and colleagues (2015).",
+   "journal": "Psycho-oncology",
+   "year": "2017",
+   "doi": "10.1002/pon.4369",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28299885/",
+   "abstract": ""
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  backend:
+    name: Backend (Maven build & test)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: maven
+
+      - name: Build & Test
+        working-directory: backend
+        run: mvn -B verify
+
+  frontend:
+    name: Frontend (Type check & build)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install dependencies
+        working-directory: frontend
+        run: npm ci --no-audit --no-fund
+
+      - name: Type check & build
+        working-directory: frontend
+        run: npm run build
+
+  security-scan:
+    name: Secret scan (prevent key leaks)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Scan for hardcoded secrets
+        shell: bash
+        run: |
+          # 扫描常见密钥形态：sk- 开头 Key、JWT 硬编码、私钥块
+          VIOLATIONS=$(grep -rEn "sk-[A-Za-z0-9]{20,}" \
+            --include="*.java" --include="*.ts" --include="*.vue" \
+            --include="*.yml" --include="*.yaml" --include="*.json" \
+            --include="*.md" --include="*.py" --include="*.xml" \
+            . | grep -v "sk-please_fill_your_own_key" || true)
+          VIOLATIONS2=$(grep -rEn "BEGIN (RSA |EC )?PRIVATE KEY" . || true)
+          if [ -n "$VIOLATIONS" ] || [ -n "$VIOLATIONS2" ]; then
+            echo "::error::Detected potential hardcoded secrets:"
+            echo "$VIOLATIONS" || true
+            echo "$VIOLATIONS2" || true
+            exit 1
+          fi
+          echo "No hardcoded secrets found."
