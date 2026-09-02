@@ -354,6 +354,7 @@ import { useRoute } from 'vue-router'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import { Plus, Delete, Download } from '@element-plus/icons-vue'
 import { marked } from 'marked'
+import DOMPurify from 'dompurify'
 import { chatApi, type Conversation, type Message, type SourceRef } from '@/api/chat'
 import { welcomePrompts } from '@/constants/examplePrompts'
 import { useUserStore } from '@/stores/user'
@@ -530,9 +531,16 @@ const sendMessage = async (text: string) => {
 }
 
 // ===================== 工具函数 =====================
+// markdown 渲染：marked 解析后必须经 DOMPurify 消毒再交 v-html，
+// 防止 LLM 输出或历史会话中注入的 <script>/<img onerror> 等载荷造成存储型 XSS
 const renderMarkdown = (content: string) => {
   if (!content) return ''
-  return marked.parse(content) as string
+  const raw = marked.parse(content) as string
+  return DOMPurify.sanitize(raw, {
+    USE_PROFILES: { html: true },
+    FORBID_TAGS: ['style', 'form', 'input', 'iframe'],
+    FORBID_ATTR: ['onerror', 'onload', 'onclick']
+  })
 }
 
 const scrollToBottom = async () => {

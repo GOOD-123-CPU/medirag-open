@@ -1,6 +1,6 @@
 {
   "name": "medirag-frontend",
-  "version": "0.0.0",
+  "version": "1.2.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -14,6 +14,7 @@
     "@element-plus/icons-vue": "^2.3.2",
     "@vueuse/core": "^14.2.1",
     "axios": "^1.13.6",
+    "dompurify": "^3.4.14",
     "echarts": "^6.0.0",
     "element-plus": "^2.13.5",
     "highlight.js": "^11.11.1",
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "@tsconfig/node24": "^24.0.4",
+    "@types/dompurify": "^3.0.5",
     "@types/node": "^24.11.0",
     "@vitejs/plugin-vue": "^6.0.4",
     "@vue/tsconfig": "^0.8.1",

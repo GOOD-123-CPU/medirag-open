@@ -8,8 +8,8 @@
 
 SpringBoot 3 · Vue 3 · Milvus · Redis · MinIO · LangChain4j
 
-[![CI](https://github.com/YOUR_GITHUB_USERNAME/medirag/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/medirag/actions/workflows/ci.yml)
-[![tests](https://img.shields.io/badge/tests-22%20passing-brightgreen)]()
+[![CI](https://github.com/GOOD-123-CPU/medirag/actions/workflows/ci.yml/badge.svg)](https://github.com/GOOD-123-CPU/medirag/actions/workflows/ci.yml)
+[![tests](https://img.shields.io/badge/tests-37%20passing-brightgreen)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![SpringBoot](https://img.shields.io/badge/SpringBoot-3.2-green)
@@ -30,7 +30,8 @@ MediRAG 是一套完整的医疗知识智能问答系统，将医学文档切片
 ## ✨ 核心特性
 
 - **工业级 RAG 链路**：向量 + 关键词（BM25 风格打分）多路召回 → RRF 融合 → Cross-Encoder 重排序 → LLM 生成
-- **开箱即用的工程化**：全链路 TraceId 日志追踪、接口限流、Swagger/OpenAPI 文档、22 个单元测试
+- **开箱即用的工程化**：全链路 TraceId 日志追踪、接口限流、Swagger/OpenAPI 文档、37 个单元测试 + JaCoCo 覆盖率
+- **安全内建**：JWT 强度校验、Redis 限流、DOMPurify 防 XSS、CI 级 gitleaks 密钥扫描与依赖审查
 - **医疗安全兜底**：紧急症状检测 + 置信度评估，证据不足时明确提示而非编造
 - **来源可溯**：每条回答标注引用的医学文献章节与页码
 - **检索过程可视化**：改写、召回、融合、重排全过程可查，适合教学与答辩
@@ -60,7 +61,7 @@ flowchart TD
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/YOUR_GITHUB_USERNAME/medirag.git
+git clone https://github.com/GOOD-123-CPU/medirag.git
 cd medirag
 
 # 2. 配置环境变量
@@ -130,21 +131,32 @@ python evaluation/eval_retrieval.py \
 
 ```
 medirag/
-├── backend/             # SpringBoot 3 后端
+├── backend/             # SpringBoot 3 后端（37 个单元测试 + JaCoCo 覆盖率）
 │   └── src/main/java/com/medirag/
-│       ├── service/rag/         # RAG 核心链路
+│       ├── service/rag/         # RAG 核心链路（每步一个可替换组件）
 │       ├── service/knowledge/   # 文档解析 / 切块 / Milvus / MinIO
-│       ├── controller/          # API 接口
+│       ├── controller/          # API 接口（SSE 流式 + 限流）
 │       └── config/              # 安全 / 中间件配置
-├── frontend/            # Vue 3 + Vite + Element Plus 前端
+├── frontend/            # Vue 3 + Vite + Element Plus（DOMPurify 防 XSS，按路由代码分割）
 ├── reranker-service/    # Python 重排序微服务（bge-reranker-v2-m3）
 ├── sql/                 # 数据库初始化脚本（纯演示数据）
 ├── evaluation/          # 检索质量评估脚本
 ├── sample-data/         # PubMed 样例知识库（含 PMID/DOI 溯源）
-├── docs/                # 技术文档
+├── docs/                # 技术文档（架构 / RAG 链路 / API / 部署 / FAQ / 路线图）
 ├── docker-compose.yml   # 一键部署
-└── .github/workflows/   # CI（构建 + 测试 + 密钥扫描）
+└── .github/workflows/   # CI（构建 + 测试 + 覆盖率 + gitleaks + 依赖审查）
 ```
+
+## 📚 文档导航
+
+| 文档 | 内容 |
+|---|---|
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | 系统架构、模块职责、关键设计决策、扩展指南 |
+| [docs/rag-pipeline.md](docs/rag-pipeline.md) | RAG 链路逐层拆解（打分公式、融合算法、置信度模型） |
+| [docs/api.md](docs/api.md) | REST/SSE 接口契约（Swagger 在线文档见下方） |
+| [docs/deployment.md](docs/deployment.md) | 部署拓扑、环境变量、生产加固清单 |
+| [docs/FAQ.md](docs/FAQ.md) | 常见问题排查（部署 / 效果 / 开发 / 合规） |
+| [docs/ROADMAP.md](docs/ROADMAP.md) | 版本路线图与已知限制（诚实清单） |
 
 ## 🤝 贡献
 

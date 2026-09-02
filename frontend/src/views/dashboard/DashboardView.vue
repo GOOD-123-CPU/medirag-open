@@ -169,8 +169,26 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, nextTick } from 'vue'
 import { Refresh } from '@element-plus/icons-vue'
-import * as echarts from 'echarts'
+// ECharts 按需引入：仅打包本页用到的折线/柱状/饼图组件，
+// 相比 import * as echarts 可减少约 60% 的图表库体积，且随本路由懒加载
+import * as echarts from 'echarts/core'
+import { LineChart, PieChart, BarChart } from 'echarts/charts'
+import {
+  GridComponent,
+  TooltipComponent,
+  LegendComponent,
+  AxisPointerComponent
+} from 'echarts/components'
+import { CanvasRenderer } from 'echarts/renderers'
+import { graphic } from 'echarts/core'
+import type { EChartsType } from 'echarts/core'
 import { statsApi, type DashboardData } from '@/api/stats'
+
+echarts.use([
+  LineChart, PieChart, BarChart,
+  GridComponent, TooltipComponent, LegendComponent, AxisPointerComponent,
+  CanvasRenderer
+])
 
 // ===================== 数据状态 =====================
 const loading = ref(false)
@@ -184,10 +202,10 @@ const categoryChartRef = ref<HTMLElement>()
 const kbStatusChartRef = ref<HTMLElement>()
 
 // ECharts 实例
-let trendChart: echarts.ECharts | null = null
-let roleChart: echarts.ECharts | null = null
-let categoryChart: echarts.ECharts | null = null
-let kbStatusChart: echarts.ECharts | null = null
+let trendChart: EChartsType | null = null
+let roleChart: EChartsType | null = null
+let categoryChart: EChartsType | null = null
+let kbStatusChart: EChartsType | null = null
 
 // ===================== 计算属性 =====================
 const metrics = computed(() => [
@@ -287,7 +305,7 @@ const renderTrendChart = () => {
       lineStyle: { color: '#3b82f6', width: 2.5 },
       itemStyle: { color: '#3b82f6', borderWidth: 2, borderColor: '#fff' },
       areaStyle: {
-        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+        color: new graphic.LinearGradient(0, 0, 0, 1, [
           { offset: 0, color: 'rgba(59,130,246,0.3)' },
           { offset: 1, color: 'rgba(59,130,246,0.02)' }
         ])

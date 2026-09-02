@@ -8,7 +8,7 @@ on:
 
 jobs:
   backend:
-    name: Backend (Maven build & test)
+    name: Backend (build, test & coverage)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,8 +24,24 @@ jobs:
         working-directory: backend
         run: mvn -B verify
 
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-coverage
+          path: backend/target/site/jacoco/
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Upload backend jar
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-jar
+          path: backend/target/medirag-backend.jar
+          retention-days: 14
+          if-no-files-found: ignore
+
   frontend:
-    name: Frontend (Type check & build)
+    name: Frontend (type check & build)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -45,28 +61,35 @@ jobs:
         working-directory: frontend
         run: npm run build
 
+      - name: Upload frontend dist
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-dist
+          path: frontend/dist/
+          retention-days: 14
+          if-no-files-found: ignore
+
   security-scan:
-    name: Secret scan (prevent key leaks)
+    name: Secret scan (gitleaks)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Scan for hardcoded secrets
-        shell: bash
-        run: |
-          # 扫描常见密钥形态：sk- 开头 Key、JWT 硬编码、私钥块
-          VIOLATIONS=$(grep -rEn "sk-[A-Za-z0-9]{20,}" \
-            --include="*.java" --include="*.ts" --include="*.vue" \
-            --include="*.yml" --include="*.yaml" --include="*.json" \
-            --include="*.md" --include="*.py" --include="*.xml" \
-            . | grep -v "sk-please_fill_your_own_key" || true)
-          VIOLATIONS2=$(grep -rEn "BEGIN (RSA |EC )?PRIVATE KEY" . || true)
-          if [ -n "$VIOLATIONS" ] || [ -n "$VIOLATIONS2" ]; then
-            echo "::error::Detected potential hardcoded secrets:"
-            echo "$VIOLATIONS" || true
-            echo "$VIOLATIONS2" || true
-            exit 1
-          fi
-          echo "No hardcoded secrets found."
+      - name: Gitleaks — scan commits & working tree for secrets
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  dependency-review:
+    name: Dependency review (new vulnerabilities in PRs)
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Review dependencies for known CVEs
+        uses: actions/dependency-review-action@v4
+        with:
+          fail-on-severity: high
