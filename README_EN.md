@@ -6,7 +6,7 @@
 
 SpringBoot 3 · Vue 3 · Milvus · Redis · MinIO · LangChain4j
 
-[![CI](https://github.com/GOOD-123-CPU/medirag/actions/workflows/ci.yml/badge.svg)](https://github.com/GOOD-123-CPU/medirag/actions/workflows/ci.yml)
+[![CI](https://github.com/GOOD-123-CPU/medirag-open/actions/workflows/ci.yml/badge.svg)](https://github.com/GOOD-123-CPU/medirag-open/actions/workflows/ci.yml)
 [![tests](https://img.shields.io/badge/tests-37%20passing-brightgreen)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -57,8 +57,8 @@ See [docs/rag-pipeline.md](docs/rag-pipeline.md) for technical details (Chinese)
 ## 🚀 Quick Start (Docker)
 
 ```bash
-git clone https://github.com/GOOD-123-CPU/medirag.git
-cd medirag
+git clone https://github.com/GOOD-123-CPU/medirag-open.git
+cd medirag-open
 
 cp .env.example .env
 # Edit .env: at minimum set LLM_API_KEY, JWT_SECRET, DB_PASSWORD

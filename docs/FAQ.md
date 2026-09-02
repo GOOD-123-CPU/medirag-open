@@ -55,4 +55,4 @@ mvn verify -Djacoco.destFile=D:\tmp\jacoco.exec   # 覆盖率文件写到 ASCII 
 
 ---
 
-没有找到答案？[提一个 Issue](https://github.com/GOOD-123-CPU/medirag/issues/new/choose)。
+没有找到答案？[提一个 Issue](https://github.com/GOOD-123-CPU/medirag-open/issues/new/choose)。

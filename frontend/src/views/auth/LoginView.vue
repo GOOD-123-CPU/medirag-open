@@ -137,8 +137,9 @@ const features = [
 ]
 
 const demoAccounts = [
-  { username: 'David', password: 'David123', label: '管理员', type: 'danger' },
-  { username: 'wangwei', password: 'ww1314', label: '用户', type: '' }
+  { username: 'admin', password: 'Admin@123456', label: '管理员', type: 'danger' },
+  { username: 'doctor1', password: 'Doctor@123', label: '医护人员', type: 'warning' },
+  { username: 'user1', password: 'User@123456', label: '普通用户', type: '' }
 ]
 
 const fillAccount = (acc: { username: string; password: string }) => {
