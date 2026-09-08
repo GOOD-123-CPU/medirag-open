@@ -9,7 +9,6 @@
 SpringBoot 3 · Vue 3 · Milvus · Redis · MinIO · LangChain4j
 
 [![CI](https://github.com/GOOD-123-CPU/medirag-open/actions/workflows/ci.yml/badge.svg)](https://github.com/GOOD-123-CPU/medirag-open/actions/workflows/ci.yml)
-[![tests](https://img.shields.io/badge/tests-37%20passing-brightgreen)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![SpringBoot](https://img.shields.io/badge/SpringBoot-3.2-green)
@@ -29,7 +28,7 @@ MediRAG 是一套完整的医疗知识智能问答系统，将医学文档切片
 
 ## ✨ 核心特性
 
-- **工业级 RAG 链路**：向量 + 关键词（BM25 风格打分）多路召回 → RRF 融合 → Cross-Encoder 重排序 → LLM 生成
+- **多阶段 RAG 链路**：向量 + 关键词（BM25 风格打分）多路召回 → RRF 融合 → Cross-Encoder 重排序 → LLM 生成
 - **开箱即用的工程化**：全链路 TraceId 日志追踪、接口限流、Swagger/OpenAPI 文档、37 个单元测试 + JaCoCo 覆盖率
 - **安全内建**：JWT 强度校验、Redis 限流、DOMPurify 防 XSS、CI 级 gitleaks 密钥扫描与依赖审查
 - **医疗安全兜底**：紧急症状检测 + 置信度评估，证据不足时明确提示而非编造
@@ -126,6 +125,15 @@ python evaluation/eval_retrieval.py \
     --kb sample-data/medirag_knowledge_sample.json \
     --cases sample-data/authoritative_cases_11_departments.json
 ```
+
+### 评估范围与结果解释
+
+上面的 [离线脚本](evaluation/eval_retrieval.py) 使用词法覆盖分数排序，并以检索关键词命中判断相关性。它不调用 Milvus、重排序服务或 LLM，因此不能用于证明完整 RAG 链路或回答质量。
+
+- 脚本的 `recall@K` 实际统计“前 K 项中至少命中一次”的查询比例，更接近 Hit Rate@K，不是基于人工标注文档集合的完整召回率。
+- `mrr@K` 依据相同的关键词命中规则计算。排序与命中判定共享词法信号，不应把该数值当作独立语义评估结果。
+- 比较实验时应记录数据版本、查询数量、K 值和配置；完整链路评估还需固定查询及相关文档标注，分别比较召回、融合和重排序结果。
+- CI 徽章反映工作流状态，不代表检索效果或医疗适用性。
 
 ## 📁 项目结构
 
