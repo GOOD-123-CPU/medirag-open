@@ -7,7 +7,6 @@
 SpringBoot 3 · Vue 3 · Milvus · Redis · MinIO · LangChain4j
 
 [![CI](https://github.com/GOOD-123-CPU/medirag-open/actions/workflows/ci.yml/badge.svg)](https://github.com/GOOD-123-CPU/medirag-open/actions/workflows/ci.yml)
-[![tests](https://img.shields.io/badge/tests-37%20passing-brightgreen)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 </div>
@@ -28,7 +27,7 @@ streaming LLM generation**, producing answers with **traceable source citations*
 
 ## ✨ Highlights
 
-- **Production-style RAG pipeline**: vector + keyword hybrid retrieval, RRF fusion, Cross-Encoder re-ranking
+- **Multi-stage RAG pipeline**: vector + keyword hybrid retrieval, RRF fusion, Cross-Encoder re-ranking
 - **Medical safety guardrails**: emergency symptom detection + confidence estimation; explicit fallback when evidence is insufficient
 - **Traceable citations**: every answer references document chapters and page numbers
 - **Retrieval visualization**: full pipeline visibility — great for teaching and demos
@@ -105,6 +104,14 @@ cd frontend && npm install && npm run dev   # http://localhost:5173
 ```bash
 cd reranker-service && pip install -r requirements.txt && uvicorn main:app --port 8001
 ```
+
+## Evaluation Scope
+
+The [offline evaluation script](evaluation/eval_retrieval.py) ranks documents by lexical coverage and defines relevance through keyword matches. It does not call Milvus, the reranker or an LLM, so its results do not measure the full RAG pipeline or answer quality.
+
+The reported `recall@K` is the fraction of evaluated queries with at least one keyword hit in the top K results, closer to Hit Rate@K than document-level recall. `mrr@K` uses the same keyword-based relevance rule. Ranking and relevance share lexical signals; these scores are not an independent semantic benchmark.
+
+For reproducible comparisons, record the data version, query count, K and configuration. Full-pipeline evaluation needs fixed queries and relevance judgments, with separate retrieval, fusion and reranking comparisons. CI status describes workflow execution, not retrieval quality or clinical suitability.
 
 ## 📁 Project Structure
 
