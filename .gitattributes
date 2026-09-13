@@ -1,2 +1,22 @@
-*.bat text eol=crlf
-*.cmd text eol=crlf
+# === GitHub Linguist 语言统计修正 ===
+# 目标：让仓库主导语言反映真实后端/核心语言，而非被前端产物或生成代码盖住
+
+# --- 前端子目录标记为 vendored，不计入语言统计 ---
+# LexAtlas：Spring Boot 后端 + Vue 前端，正确的语言显示应为 Java
+lexatlas-frontend/** linguist-vendored
+
+# --- 构建与依赖产物，不计入语言统计 ---
+node_modules/** linguist-vendored
+dist/** linguist-generated
+build/** linguist-generated
+coverage/** linguist-generated
+*.min.js linguist-generated
+*.min.css linguist-generated
+
+# --- 锁文件与自动生成文件 ---
+package-lock.json linguist-generated
+yarn.lock linguist-generated
+pnpm-lock.yaml linguist-generated
+
+# --- 文档目录不作为语言统计来源 ---
+docs/** linguist-documentation
