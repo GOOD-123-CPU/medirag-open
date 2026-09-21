@@ -3,7 +3,7 @@
 # ===== MediRAG Backend =====
 # 多阶段构建：Maven 构建 + JRE 运行
 
-FROM maven:3.9-eclipse-temurin-17 AS build
+FROM maven:3-eclipse-temurin-24 AS build
 WORKDIR /build
 
 # 先拷贝 pom 利用 Docker 层缓存加速依赖下载
