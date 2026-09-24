@@ -82,14 +82,55 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  dependency-review:
-    name: Dependency review (new vulnerabilities in PRs)
-    if: github.event_name == 'pull_request'
+  dependency-audit:
+    name: Dependency audit
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
 
-      - name: Review dependencies for known CVEs
+      - name: Set up Node 22
+        uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Frontend high-severity audit
+        working-directory: frontend
+        run: npm audit --audit-level=high --omit=dev
+
+      - name: GitHub dependency review (advisory)
+        if: github.event_name == 'pull_request'
+        continue-on-error: true
         uses: actions/dependency-review-action@v5
         with:
           fail-on-severity: high
+
+      - name: Explain dependency-review boundary
+        if: github.event_name == 'pull_request'
+        run: |
+          echo "npm audit above is the executable high-severity gate."
+          echo "GitHub dependency-review is advisory until the repository Dependency Graph is enabled."
+
+
+  evaluation:
+    name: Retrieval evaluation contract
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Run evaluation unit tests
+        run: python -m unittest evaluation/test_eval_retrieval.py -v
+
+      - name: Run explicit-label sanity benchmark
+        run: |
+          python evaluation/eval_retrieval.py \
+            --kb evaluation/fixtures/sanity_kb.json \
+            --cases evaluation/fixtures/sanity_cases.json \
+            --top-k 1
+

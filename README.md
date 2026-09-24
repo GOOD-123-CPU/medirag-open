@@ -128,12 +128,12 @@ python evaluation/eval_retrieval.py \
 
 ### 评估范围与结果解释
 
-上面的 [离线脚本](evaluation/eval_retrieval.py) 使用词法覆盖分数排序，并以检索关键词命中判断相关性。它不调用 Milvus、重排序服务或 LLM，因此不能用于证明完整 RAG 链路或回答质量。
+[离线脚本](evaluation/eval_retrieval.py) 现在显式区分两种评估契约：
 
-- 脚本的 `recall@K` 实际统计“前 K 项中至少命中一次”的查询比例，更接近 Hit Rate@K，不是基于人工标注文档集合的完整召回率。
-- `mrr@K` 依据相同的关键词命中规则计算。排序与命中判定共享词法信号，不应把该数值当作独立语义评估结果。
-- 比较实验时应记录数据版本、查询数量、K 值和配置；完整链路评估还需固定查询及相关文档标注，分别比较召回、融合和重排序结果。
-- CI 徽章反映工作流状态，不代表检索效果或医疗适用性。
+- **显式相关性标注**：每条 query 提供 `relevant_doc_ids` 时，脚本才输出标准 `Recall@K` 与 `MRR@K`。仓库内的 `evaluation/fixtures/` 是仅用于 CI 的合成 sanity fixture，用来验证指标实现，不代表医疗检索效果。
+- **关键词代理标注**：旧样例病例没有与当前知识库一一对应的独立相关文档标注，因此只输出 `proxy_hit_rate@K` / `proxy_mrr@K`，并在结果中标记 `heuristic_keyword_proxy`。排序与“相关性”共享词法信号，不能据此声称语义检索质量。
+
+该离线脚本仍不调用 Milvus、Cross-Encoder 或 LLM。要评价完整 RAG，需要冻结知识库版本、建立独立 query→relevant-document qrels，并分别记录召回、融合、重排、引用对齐与生成事实性。CI 会验证评估代码的指标契约，但 CI 徽章不代表医疗适用性。
 
 ## 📁 项目结构
 

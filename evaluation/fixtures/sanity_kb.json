@@ -1,0 +1,7 @@
+{
+  "records": [
+    {"id":"d1","title":"Appendicitis emergency pathway","abstract":"acute appendicitis right lower quadrant pain fever surgery"},
+    {"id":"d2","title":"Diabetic ketoacidosis","abstract":"DKA hyperglycemia ketones metabolic emergency"},
+    {"id":"d3","title":"General wellness","abstract":"sleep exercise hydration general health"}
+  ]
+}

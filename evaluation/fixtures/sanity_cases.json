@@ -1,0 +1,14 @@
+[
+  {
+    "query_id":"q1",
+    "query":"appendicitis right lower quadrant pain",
+    "retrieval_keywords":["appendicitis","right lower quadrant"],
+    "relevant_doc_ids":["d1"]
+  },
+  {
+    "query_id":"q2",
+    "query":"DKA hyperglycemia ketones",
+    "retrieval_keywords":["DKA","hyperglycemia"],
+    "relevant_doc_ids":["d2"]
+  }
+]
