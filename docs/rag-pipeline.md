@@ -89,6 +89,11 @@ Embedding 调用失败时，旧版本会静默生成字符 n-gram 伪向量入�
 
 ## 5. 检索质量评估
 
-见 `evaluation/eval_retrieval.py`。基于 `sample-data/` 的 PubMed 样例库
-与 11 科室病例评测集做离线词法评估（Recall@K / MRR@K），用于对比
-切块策略或参数调整的相对效果。更严格的语义评估建议接入 Ragas。
+见 `evaluation/eval_retrieval.py`。评估器把“显式 qrels”和“关键词代理”作为两种不同契约：
+
+- case 含 `relevant_doc_ids`：计算真正基于相关文档集合的 Recall@K 与 MRR@K；
+- case 不含独立 qrels：仅计算 `proxy_hit_rate@K` / `proxy_mrr@K`，名称中保留 proxy，禁止把词法自洽性包装成独立检索效果。
+
+`evaluation/fixtures/` 是 CI 合成数据，只用于验证指标公式和契约。当前 `sample-data/authoritative_cases_11_departments.json` 中的病例 PMID 与样例知识库并不构成一组人工标注的 query→relevant-doc ground truth，因此默认只能作为 proxy regression 输入。
+
+完整 RAG 评估的下一层应固定知识库版本并建立独立 qrels，再分别测量 vector/keyword recall、RRF、reranker、引用对齐和生成事实性；这类结果应与离线词法 smoke test 分开发布。
