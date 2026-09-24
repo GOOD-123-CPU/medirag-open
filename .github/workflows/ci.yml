@@ -93,3 +93,25 @@ jobs:
         uses: actions/dependency-review-action@v5
         with:
           fail-on-severity: high
+
+
+  evaluation:
+    name: Retrieval evaluation contract
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Run evaluation unit tests
+        run: python -m unittest evaluation/test_eval_retrieval.py -v
+
+      - name: Run explicit-label sanity benchmark
+        run: |
+          python evaluation/eval_retrieval.py \
+            --kb evaluation/fixtures/sanity_kb.json \
+            --cases evaluation/fixtures/sanity_cases.json \
+            --top-k 1
