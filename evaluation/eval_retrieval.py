@@ -1,25 +1,16 @@
 #!/usr/bin/env python3
-"""MediRAG 检索质量评估脚本（离线，不依赖运行中的服务）。
+"""MediRAG offline retrieval evaluation.
 
-用途：
-    基于 sample-data/authoritative_cases_11_departments.json 中的
-    真实病例条目（AI 生成的中文摘要 + 检索关键词），构建一个轻量
-    的词法评测集，对本地知识库 JSON 做召回评估。
+Two evaluation contracts are deliberately separated:
 
-指标：
-    - Recall@K   ：前 K 个结果中是否命中至少一条 gold 文档
-    - MRR@K      ：gold 文档首条命中排名的倒数均值
+1. Explicit relevance labels (relevant_doc_ids on every case)
+   -> Recall@K and MRR@K are reported.
+2. Legacy keyword proxy labels
+   -> only proxy_hit_rate@K and proxy_mrr@K are reported.
 
-注意：
-    这是面向 demo/教学场景的轻量评估（词法匹配，非语义召回），
-    用于在更换切块策略 / 检索参数时对比相对效果。
-    更严格的语义评估建议接入 Ragas 或自建评测集。
-
-用法：
-    python evaluation/eval_retrieval.py \
-        --kb sample-data/medirag_knowledge_sample.json \
-        --cases sample-data/authoritative_cases_11_departments.json \
-        --top-k 10
+The second mode is useful as a deterministic smoke/regression signal, but it is
+not an independent semantic-retrieval benchmark because ranking and relevance
+both depend on lexical evidence.
 """
 from __future__ import annotations
 
@@ -28,7 +19,7 @@ import json
 import re
 import sys
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, Iterable, List
 
 
 def load_json(path: Path):
@@ -37,7 +28,7 @@ def load_json(path: Path):
 
 
 def tokenize(text: str) -> List[str]:
-    """极简中英混合分词：英文按词，中文按 2-gram + 关键整词。"""
+    """Minimal mixed Chinese/English tokenizer for the offline lexical baseline."""
     tokens: List[str] = []
     for m in re.finditer(r"[A-Za-z][A-Za-z0-9+\-_]*", text):
         tokens.append(m.group().lower())
@@ -51,76 +42,154 @@ def tokenize(text: str) -> List[str]:
 
 
 def build_documents(kb: Dict) -> List[Dict]:
-    """知识库 JSON -> 文档列表 [{id, text}]。兼容两种结构。"""
+    """Knowledge-base JSON -> [{id, text}]."""
     docs: List[Dict] = []
     records = kb.get("records") or kb.get("documents") or []
     for i, rec in enumerate(records):
         text = " ".join(str(rec.get(k, "")) for k in ("title", "content", "abstract", "text"))
         if text.strip():
-            docs.append({"id": rec.get("pmid") or rec.get("id") or f"doc-{i}", "text": text})
+            docs.append({
+                "id": str(rec.get("pmid") or rec.get("id") or f"doc-{i}"),
+                "text": text,
+            })
     return docs
 
 
 def score_doc(query_terms: List[str], doc_text: str) -> float:
-    """词法覆盖打分：命中词权重 / 查询词总权重（词越长权重越高）。"""
+    """Lexical coverage baseline: matched query-term weight / total query weight."""
     if not query_terms:
         return 0.0
     text = doc_text.lower()
     total = matched = 0.0
-    for t in query_terms:
-        w = min(4.0, max(1.2, len(t) / 2.0))
-        total += w
-        if t in text:
-            matched += w
+    for term in query_terms:
+        weight = min(4.0, max(1.2, len(term) / 2.0))
+        total += weight
+        if term in text:
+            matched += weight
     return matched / total if total else 0.0
 
 
-def evaluate(cases: List[Dict], docs: List[Dict], top_k: int) -> Dict:
-    recalls, rr = [], []
-    for case in cases:
-        kws = case.get("retrieval_keywords") or []
-        summary = case.get("clinical_summary_zh", "")
-        query_terms = tokenize(" ".join(kws) + " " + summary)
-        if not query_terms or not docs:
-            continue
-        ranked = sorted(docs, key=lambda d: score_doc(query_terms, d["text"]), reverse=True)[:top_k]
+def _query_terms(case: Dict) -> List[str]:
+    query = case.get("query") or case.get("clinical_summary_zh") or ""
+    keywords = case.get("retrieval_keywords") or []
+    return tokenize(" ".join(str(k) for k in keywords) + " " + str(query))
 
-        gold_terms = [k.lower() for k in kws if len(k) >= 2]
+
+def rank_case(case: Dict, docs: List[Dict], top_k: int) -> List[Dict]:
+    terms = _query_terms(case)
+    return sorted(docs, key=lambda d: score_doc(terms, d["text"]), reverse=True)[:top_k]
+
+
+def _explicit_relevant_ids(case: Dict) -> set[str] | None:
+    raw = case.get("relevant_doc_ids")
+    if raw is None:
+        return None
+    if not isinstance(raw, list):
+        raise ValueError("relevant_doc_ids must be a list when provided")
+    return {str(doc_id) for doc_id in raw}
+
+
+def _first_relevant_rank(ranked: Iterable[Dict], relevant: set[str]) -> int | None:
+    for rank, doc in enumerate(ranked, start=1):
+        if str(doc["id"]) in relevant:
+            return rank
+    return None
+
+
+def evaluate_explicit(cases: List[Dict], docs: List[Dict], top_k: int) -> Dict:
+    recalls: List[float] = []
+    reciprocal_ranks: List[float] = []
+    for case in cases:
+        relevant = _explicit_relevant_ids(case)
+        if relevant is None:
+            raise ValueError("explicit evaluation requires relevant_doc_ids on every case")
+        if not relevant:
+            continue
+        ranked = rank_case(case, docs, top_k)
+        retrieved_ids = {str(doc["id"]) for doc in ranked}
+        recalls.append(len(relevant & retrieved_ids) / len(relevant))
+        first_rank = _first_relevant_rank(ranked, relevant)
+        reciprocal_ranks.append(1.0 / first_rank if first_rank else 0.0)
+
+    n = len(recalls)
+    if n == 0:
+        raise ValueError("no explicitly labelled queries were available for evaluation")
+    return {
+        "label_mode": "explicit_doc_ids",
+        "queries_evaluated": n,
+        f"recall@{top_k}": round(sum(recalls) / n, 4),
+        f"mrr@{top_k}": round(sum(reciprocal_ranks) / n, 4),
+    }
+
+
+def evaluate_proxy(cases: List[Dict], docs: List[Dict], top_k: int) -> Dict:
+    """Legacy keyword proxy; intentionally does not call the metric Recall."""
+    hits: List[float] = []
+    reciprocal_ranks: List[float] = []
+    for case in cases:
+        keywords = [str(k).lower() for k in case.get("retrieval_keywords", []) if len(str(k)) >= 2]
+        terms = _query_terms(case)
+        if not terms or not docs or not keywords:
+            continue
+        ranked = rank_case(case, docs, top_k)
         hit_rank = None
         for rank, doc in enumerate(ranked, start=1):
             text = doc["text"].lower()
-            if any(g in text for g in gold_terms):
+            if any(keyword in text for keyword in keywords):
                 hit_rank = rank
                 break
+        hits.append(1.0 if hit_rank else 0.0)
+        reciprocal_ranks.append(1.0 / hit_rank if hit_rank else 0.0)
 
-        recalls.append(1.0 if hit_rank else 0.0)
-        rr.append(1.0 / hit_rank if hit_rank else 0.0)
-
-    n = max(1, len(recalls))
+    n = len(hits)
+    if n == 0:
+        raise ValueError("no proxy-labelled queries were available for evaluation")
     return {
-        "queries_evaluated": len(recalls),
-        f"recall@{top_k}": round(sum(recalls) / n, 4),
-        f"mrr@{top_k}": round(sum(rr) / n, 4),
+        "label_mode": "heuristic_keyword_proxy",
+        "queries_evaluated": n,
+        f"proxy_hit_rate@{top_k}": round(sum(hits) / n, 4),
+        f"proxy_mrr@{top_k}": round(sum(reciprocal_ranks) / n, 4),
+        "warning": "proxy metrics share lexical signals with ranking and are not independent semantic evaluation",
     }
+
+
+def evaluate(cases: List[Dict], docs: List[Dict], top_k: int) -> Dict:
+    labelled = [_explicit_relevant_ids(case) is not None for case in cases]
+    if all(labelled) and labelled:
+        return evaluate_explicit(cases, docs, top_k)
+    if any(labelled):
+        raise ValueError("mixed labelled/unlabelled cases are not allowed; use one evaluation contract per file")
+    return evaluate_proxy(cases, docs, top_k)
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="MediRAG offline retrieval evaluation")
-    parser.add_argument("--kb", type=Path, required=True, help="知识库 JSON 文件")
-    parser.add_argument("--cases", type=Path, required=True, help="评测病例 JSON 文件")
+    parser.add_argument("--kb", type=Path, required=True, help="knowledge-base JSON")
+    parser.add_argument("--cases", type=Path, required=True, help="evaluation cases JSON")
     parser.add_argument("--top-k", type=int, default=10)
     args = parser.parse_args()
+
+    if args.top_k <= 0:
+        parser.error("--top-k must be positive")
 
     kb = load_json(args.kb)
     cases_raw = load_json(args.cases)
     cases = cases_raw["departments"] if isinstance(cases_raw, dict) and "departments" in cases_raw else cases_raw
-    docs = build_documents(kb)
+    if not isinstance(cases, list):
+        print("[ERROR] cases JSON must contain a list or a departments list", file=sys.stderr)
+        return 2
 
+    docs = build_documents(kb)
     if not docs:
-        print("[WARN] 知识库中未解析出文档，请检查 JSON 结构（需含 records/documents 数组）", file=sys.stderr)
+        print("[ERROR] no documents parsed from knowledge-base JSON", file=sys.stderr)
         return 1
 
-    metrics = evaluate(cases, docs, args.top_k)
+    try:
+        metrics = evaluate(cases, docs, args.top_k)
+    except ValueError as exc:
+        print(f"[ERROR] {exc}", file=sys.stderr)
+        return 2
+
     print(json.dumps(metrics, ensure_ascii=False, indent=2))
     return 0
 
