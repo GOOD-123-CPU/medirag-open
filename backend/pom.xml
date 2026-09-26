@@ -25,7 +25,7 @@
         <hutool.version>5.8.26</hutool.version>
         <minio.version>8.5.7</minio.version>
         <langchain4j.version>0.29.1</langchain4j.version>
-        <springdoc.version>2.3.0</springdoc.version>
+        <springdoc.version>3.1.1</springdoc.version>
     </properties>
 
     <dependencies>
