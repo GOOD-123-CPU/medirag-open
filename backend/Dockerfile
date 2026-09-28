@@ -13,7 +13,7 @@ RUN mvn -B dependency:go-offline -q || true
 COPY src ./src
 RUN mvn -B clean package -DskipTests -q
 
-FROM eclipse-temurin:17-jre
+FROM eclipse-temurin:24-jre
 WORKDIR /app
 
 # 非 root 运行
